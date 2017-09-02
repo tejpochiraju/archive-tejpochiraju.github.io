@@ -4,7 +4,7 @@ permalink: /filter/
 ---
 
 <div>
-    <h1><strong>Filter projects by clicking on any of the categorisations below.</strong></h1>
+    <h1><strong>Filter projects by clicking on any of the categories below.</strong></h1>
     <br/>
     <div class="columns">
     {% assign navlist = site.data.navigation.nav | sort: 'title' %}

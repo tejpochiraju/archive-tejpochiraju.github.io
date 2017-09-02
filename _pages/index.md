@@ -1,31 +1,15 @@
 ---
-layout: default
+layout: frontpage
 permalink: /
 ---
 
-<div class="tile is-ancestor">
-  <div class="tile is-vertical is-4">
-    <div class="tile">
-      <div class="tile is-parent is-vertical">
-        <figure class="image is-256x256">
-            <img src="{{ site.photo }}" alt="Image">
-        </figure>
-      </div>
-    </div>
-  </div>
-  <div class="tile is-parent">
-    <!-- <article class="tile is-child"> -->
-      <div class="content">
-        <div class="content">
-            <p>
-                {{ site.bio }}
-            </p>
-            I am affiliated with:<br/>
-            {% for affiliation in site.affiliations %}
-                <a href="affiliation.url">{{ affiliation.title }}</a> - {{ affiliation.bio }}<br/>
-            {% endfor %}
-        </div>
-      </div>
-    <!-- </article> -->
-  </div>
-</div>
+Hi, I am Dr. Tej Pochiraju - a consultant product innovator based in Bangalore, India. I am privileged to have worked with numerous nimble startups and SMEs as well market-leaders such as Datamars, Texon and Mondelez.
+
+I love building new products that combine hardware and software to solve real world challenges - like [environmental sustainability](/tag/energy/) or low cost [communications](/tag/electronics/). Stints in [academia](/tag/academia/), [corporates](/tag/corporate/) and [startup-land](/tag/startup/) have allowed me to work at all technology readiness levels.
+
+Many of the projects have [gone into the market](/tag/released/) with success. See a full classification of the [projects here](/filter/).
+
+I am affiliated with:
+
+- [Sustain](http://jaagasustain.in): CEO of this product innovation studio for environmental ventures
+- [Jaaga Startup](http://startup.jaaga.in): Partner at this curated coworking space focused on skill sharing amongst entrepreneurs

@@ -4,7 +4,19 @@ Contribution: Design, Development, Supply Chain
 Technology Readiness Level: 7
 Client: Daily Dump
 Patent: No
-Status: Ongoing",A sensor enabled composter that increases end-user engagement and provides measurable impact metrics,Daily Dump,dailydump.jpg,No,aaga.jpg,Waste,http://dailydump.org,August 2017,,"Design, Development, Supply Chain",Ongoing,7,Application,Startup,"Waste,Design, Development, Supply Chain,Ongoing,TRL7,Application,Startup"
+Status: Ongoing",A sensor enabled composter that increases end-user engagement and provides measurable impact metrics,Daily Dump,dailydump.jpg,No,aaga.jpg,Waste,http://dailydump.org,September 2017,,"Design, Development, Supply Chain",Ongoing,7,Application,Startup,"Waste,Design, Development, Supply Chain,Ongoing,TRL7,Application,Startup"
+Portfolio Website,"A fast, responsive porfolio website with project filters. Built with Bulma.io and Jekyll
+Contribution: Design, Development, Writing
+Technology Readiness Level: 9
+Client: 
+Patent: No
+Status: Released","A fast, responsive porfolio website with project filters. Built with Bulma.io and Jekyll",,,No,portfolio_website.png,Software,http://tejpochiraju.github.io,August 2017,August 2017,"Design, Development, Writing",Released,9,Application,Startup,"Software,Design, Development, Writing,Released,TRL9,Application,Startup"
+Website for PASS Collective,"Jekyll website with full bleed video for PASS Collective - a skilling organisation using football and design to empower marginalised children.
+Contribution: Design, Development
+Technology Readiness Level: 9
+Client: PASS Collective
+Patent: No
+Status: Released",Jekyll website with full bleed video for PASS Collective - a skilling organisation using football and design to empower marginalised children.,PASS Collective,,No,pass_collective.png,Software,http://passcollective.org,June 2017,June 2017,"Design, Development",Released,9,Market,Startup,"Software,Design, Development,Released,TRL9,Market,Startup"
 OS + dashboard for IoT devices,"Lightweight, robust OS + device management dashboard for IoT products
 Contribution: Design, Development
 Technology Readiness Level: 7
@@ -29,6 +41,12 @@ Technology Readiness Level: 9
 Client: Tovalia, France
 Patent: No
 Status: Released",Printed high gain Yagi array to enable detection of small signals in a miniature moisture sensing application,"Tovalia, France",tovalia.png,No,yagi.jpg,"Water, Electronics",http://www.tovalia.fr/,October 2016,October 2016,"Design, Development",Released,9,Technology,Startup,"Water, Electronics,Design, Development,Released,TRL9,Technology,Startup"
+Website for Jaaga Startup,"Simple Jekyll website with 95 score on Google PageSpeed for Jaaga Startup.
+Contribution: Design, Development
+Technology Readiness Level: 9
+Client: Jaaga Startup
+Patent: No
+Status: Released",Simple Jekyll website with 95 score on Google PageSpeed for Jaaga Startup.,Jaaga Startup,jaaga.png,No,jaaga_startup.png,Software,http://startup.jaaga.in/,June 2016,June 2016,"Design, Development",Released,9,Market,Startup,"Software,Design, Development,Released,TRL9,Market,Startup"
 Remotely managed curated music for venues and retail businesses,"IoT enabled, remotely managed, professionally curated music for venues
 Contribution: Design, Development, Supply Chain
 Technology Readiness Level: 7
@@ -41,6 +59,12 @@ Technology Readiness Level: 7
 Client: Sustain Earth, India
 Patent: No
 Status: Prototype",Simple wireless meter to measure consumption of bio-gas to enable pay-as-you-go model for bio-digesters,"Sustain Earth, India",gaugas.jpg,No,bio_digester.jpg,Energy,http://sustainearth.in,April 2016,July 2016,"Design, Development",Prototype,7,Application,Startup,"Energy,Design, Development,Prototype,TRL7,Application,Startup"
+Website for Sustain,"Two-column Jekyll website for Sustain
+Contribution: Design, Development
+Technology Readiness Level: 9
+Client: Sustain
+Patent: No
+Status: Released",Two-column Jekyll website for Sustain,Sustain,jaaga.png,No,jaaga_sustain.png,Software,http://jaagasustain.in/,January 2016,January 2016,"Design, Development",Released,9,Market,Startup,"Software,Design, Development,Released,TRL9,Market,Startup"
 Smart pots for urban gardening,"Smart combination of growing medium, moisture absorbing cartridges and electronics to simplify urban gardening for non-gardeners
 Contribution: Design, Experiments
 Technology Readiness Level: 9
@@ -250,7 +274,7 @@ Contribution: Design, Development
 Technology Readiness Level: 4
 Client: ECIT, Queen's University of Belfast
 Patent: No
-Status: Abandoned",A combination of polarimetry and holography to improve imaging resolution and achieve infinite depth of field.,"ECIT, Queen's University of Belfast",ecit.gif,No,holographic_sar.png,Electronics,http://www.ecit.qub.ac.uk/,September 2006,September 2007,"Design, Development",Abandoned,4,Technology,Academia,"Electronics,Design, Development,Abandoned,TRL4,Technology,Academia"
+Status: Abandoned",A combination of polarimetry and holography to improve imaging resolution and achieve infinite depth of field.,"ECIT, Queen's University of Belfast",ecit.gif,No,road_surface_imaging.jpg,Electronics,http://www.ecit.qub.ac.uk/,September 2006,September 2007,"Design, Development",Abandoned,4,Technology,Academia,"Electronics,Design, Development,Abandoned,TRL4,Technology,Academia"
 Pingu Linux,"Multi-distro GNU/Linux installer with local network repositories
 Contribution: Writing, Experiments
 Technology Readiness Level: 7
