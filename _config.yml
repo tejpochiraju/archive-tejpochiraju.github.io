@@ -1,0 +1,62 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Tej Pochiraju
+author: Tej Pochiraju
+photo: /assets/images/profile.jpg
+bio: > # this means to ignore newlines until "baseurl:"
+  Hi, I am Dr. Tej Pochiraju - a product innovator working on hard problems in technology and environmental sustainability.<br/><br/>
+
+  I have been developing products in the domains of wireless and microwave engineering for over 13 years. My specialty lies in developing innovative products that combine hardware and software. Please see my portfolio for a comprehensive list. <br/><br/>
+
+  My global client list of startups, SMEs and LEs includes Cadbury, Texon, Datamars and Rockwool. <br/><br/>
+
+  Having worked in academia and corporate environs, I have chosen the leaner approach of the startup world. This environment fits me so well that I now co-own a coworking space.
+
+
+affiliations:
+  - title: Sustain
+    url: http://sustain.jaaga.in
+    bio: CEO of this product innovation studio for environmental ventures.
+  - title: Jaaga Startup
+    url: http://startup.jaaga.in
+    bio: Partner at this curated coworking space focused on skill sharing amongst entrepreneurs.
+
+twitter: tej.pochiraju
+github: tejpochiraju
+linkedin: tej.pochiraju
+email: tej.pochiraju@gmail.com
+
+include: ["_pages"]
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

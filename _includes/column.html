@@ -1,0 +1,22 @@
+<div class="column">
+  {% for project in site.data.projects %}
+    {% if project.Arena == arena %}
+      {% assign domains = project.Domains | split: ',' %}
+      {% assign contributions = project.Contribution | split: ',' %}
+      {% if display_tags == "" %}
+        {% include card.html %}
+      {% else %}
+        {% assign tags = display_tags | split: ',' %}
+        {% assign project_tags = project.Tags | split: ',' %}
+        {% for tag in tags %}
+          {% for project_tag in project_tags %}
+            {% assign project_tag_cleaned = project_tag | strip %}
+            {% if tag == project_tag_cleaned %}
+              {% include card.html %}
+            {% endif %}
+          {% endfor %}
+        {% endfor %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+</div>

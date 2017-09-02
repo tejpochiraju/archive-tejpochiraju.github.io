@@ -1,0 +1,28 @@
+<div class="card">
+      <div class="card-image">
+        <figure class="image is-4by3">
+          <img src="/assets/images/projects/{{ project.Image }}" alt="Image">
+        </figure>
+      </div>
+      <div class="card-content">
+        <div class="media">
+          <div class="media-content">
+            <a href="{{ project.URL }}" target="_blank"><p class="title is-4">{{ project.Title }}</p></a>
+            <p> Client: <a href="{{ project.URL }}" target="_blank">{{project.Client}}</a></p>
+            <p> Domain: {% for domain in domains %} <a href="/tag/{{ domain | downcase | strip }}">{{ domain }},</a> {% endfor %}</p>
+            <p> Contribution: {% for contribution in contributions %} <a href="/tag/{{ contribution | downcase | strip }}">{{ contribution }},</a> {% endfor %}</p>
+            <p> Arena: <a href="/tag/{{ project.Arena | downcase | strip }}">{{ project.Arena }}</a></p>
+            <p> <a href="/tag/trl{{ project.TRL | downcase | strip }}">Technology Readiness Level: {{project.TRL}}</a></p>
+            <p> Status: <a href="/tag/{{ project.Status | downcase | strip }}">{{project.Status}}</a></p>
+            <p> Patent: {{project.Patent}}</p>
+            <p> {{project.Start}} - {{project.End}}</p>
+          </div>
+        </div>
+
+        <div class="content">
+          {{ project.Description }}
+          <br>
+          <small>{{ project.Period }}</small>
+        </div>
+      </div>
+    </div>

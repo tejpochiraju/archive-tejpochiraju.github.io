@@ -1,0 +1,44 @@
+<header class="site-header" role="banner">
+  <div class="container">
+    <nav class="navbar ">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="/">Home</a>
+        <a class="navbar-item" href="/portfolio/">Portfolio</a>
+        <a class="navbar-item" href="/filter/">Filter Projects</a>
+        <div class="navbar-burger" data-target="navMenu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <div class="navbar-menu" id="navMenu">
+        <div class="navbar-end">
+            <div class="navbar-item">
+            <div class="field is-grouped">
+            {% if site.email != "" %}
+              <a class="button is-white" href="mailto:{{ site.email }}" target="_blank">
+                <span class="icon"><i class="fa fa-envelope"></i></span>
+              </a>&nbsp;
+            {% endif %}
+            {% if site.linkedin != "" %}
+              <a class="button is-white" href="https://www.linkedin.com/in/{{ site.linkedin }}" target="_blank">
+                <span class="icon"><i class="fa fa-linkedin"></i></span>
+              </a>&nbsp;
+            {% endif %}
+            {% if site.twitter != "" %}
+              <a class="button is-white" href="https://twitter.com/{{ site.twitter }}" target="_blank">
+                <span class="icon"><i class="fa fa-twitter"></i></span>
+              </a>
+            {% endif %}
+            {% if site.github != "" %}
+              <a class="button is-white" href="https://github.com/{{ site.github }}" target="_blank">
+                <span class="icon"><i class="fa fa-github"></i></span>
+              </a>&nbsp;
+            {% endif %}
+            </div>
+            </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>

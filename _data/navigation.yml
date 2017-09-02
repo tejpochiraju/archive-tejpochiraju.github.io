@@ -1,0 +1,55 @@
+nav:
+  - title: Contribution
+    items:
+      - page: Development
+        url: /tag/development/
+      - page: Supply Chain
+        url: /tag/supply chain/
+      - page: Experiments
+        url: /tag/experiments/
+      - page: Design
+        url: /tag/design/
+      - page: Writing
+        url: /tag/writing/
+  - title: Domain
+    items:
+      - page: Education
+        url: /tag/education/
+      - page: Food
+        url: /tag/food/
+      - page: Communication
+        url: /tag/communication/
+      - page: Energy
+        url: /tag/energy/
+      - page: Air
+        url: /tag/air/
+      - page: Water
+        url: /tag/water/
+      - page: Electronics
+        url: /tag/electronics/
+      - page: Waste
+        url: /tag/waste/
+      - page: Software
+        url: /tag/software/
+  - title: Status
+    items:
+      - page: Concept
+        url: /tag/concept/
+      - page: Abandoned
+        url: /tag/abandoned/
+      - page: Released
+        url: /tag/released/
+      - page: Ongoing
+        url: /tag/ongoing/
+      - page: Prototype
+        url: /tag/prototype/
+      - page: Proof of Concept
+        url: /tag/proof of concept/
+  - title: Arena
+    items:
+      - page: Corporate
+        url: /tag/corporate/
+      - page: Academia
+        url: /tag/academia/
+      - page: Startup
+        url: /tag/startup/
