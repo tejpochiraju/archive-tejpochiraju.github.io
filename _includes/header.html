@@ -15,22 +15,22 @@
         <div class="navbar-end">
             <div class="navbar-item">
             <div class="field is-grouped">
-            {% if site.email != "" %}
+            {% if site.email %}
               <a class="button is-white" href="mailto:{{ site.email }}" target="_blank">
                 <span class="icon"><i class="fa fa-envelope"></i></span>
               </a>&nbsp;
             {% endif %}
-            {% if site.linkedin != "" %}
+            {% if site.linkedin %}
               <a class="button is-white" href="https://www.linkedin.com/in/{{ site.linkedin }}" target="_blank">
                 <span class="icon"><i class="fa fa-linkedin"></i></span>
               </a>&nbsp;
             {% endif %}
-            {% if site.twitter != "" %}
+            {% if site.twitter %}
               <a class="button is-white" href="https://twitter.com/{{ site.twitter }}" target="_blank">
                 <span class="icon"><i class="fa fa-twitter"></i></span>
               </a>
             {% endif %}
-            {% if site.github != "" %}
+            {% if site.github %}
               <a class="button is-white" href="https://github.com/{{ site.github }}" target="_blank">
                 <span class="icon"><i class="fa fa-github"></i></span>
               </a>&nbsp;

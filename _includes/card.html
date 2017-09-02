@@ -1,14 +1,16 @@
 <div class="card">
       <div class="card-image">
-        <figure class="image is-4by3">
-          <img src="/assets/images/projects/{{ project.Image }}" alt="Image">
+        <figure class="image">
+          <img src="/assets/images/projects/{{ project.Image }}" alt="Image" style="align-self: center;">
         </figure>
       </div>
       <div class="card-content">
         <div class="media">
           <div class="media-content">
             <a href="{{ project.URL }}" target="_blank"><p class="title is-4">{{ project.Title }}</p></a>
+            {% if project.Client %}
             <p> Client: <a href="{{ project.URL }}" target="_blank">{{project.Client}}</a></p>
+            {% endif %}
             <p> Domain: {% for domain in domains %} <a href="/tag/{{ domain | downcase | strip }}">{{ domain }},</a> {% endfor %}</p>
             <p> Contribution: {% for contribution in contributions %} <a href="/tag/{{ contribution | downcase | strip }}">{{ contribution }},</a> {% endfor %}</p>
             <p> Arena: <a href="/tag/{{ project.Arena | downcase | strip }}">{{ project.Arena }}</a></p>
