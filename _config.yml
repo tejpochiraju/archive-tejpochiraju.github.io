@@ -29,7 +29,7 @@ bio: > # this means to ignore newlines until "baseurl:"
 
 twitter: tejpochiraju
 github: tejpochiraju
-linkedin: tej.pochiraju
+linkedin: tejpochiraju
 email: tej.pochiraju@gmail.com
 
 include: ["_pages"]
