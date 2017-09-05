@@ -21,10 +21,13 @@ def main():
     domains = set()
     statuses = set()
     clients = set()
+    patents = set()
+    trls = set()
+
     file_string = "---\nlayout: portfolio\npermalink: /tag/tag_url/\ntags: tag_name\n---"
     nav = "nav:\n"
     nav_section = "  - title: category_name\n    items:\n"
-    nav_item = "      - page: item_name\n        url: /tag/item_url/\n"
+    nav_item = "      - page: \"item_name\"\n        url: /tag/item_url/\n"
 
 
     with open(data_file) as csvfile:
@@ -37,6 +40,8 @@ def main():
             row_domains = row["Domains"].split(",")
             row_statuses = row["Status"].split(",")
             row_clients = row["Client"].split(",")
+            row_patents = row["Patent"].split(",")
+            row_trls = row["TRL"].split(",")
 
             add_to_set(row_tags,tags)
             add_to_set(row_contributions,contributions)
@@ -44,6 +49,8 @@ def main():
             add_to_set(row_domains,domains)
             add_to_set(row_statuses,statuses)
             add_to_set(row_clients,clients)
+            add_to_set(row_patents,patents)
+            add_to_set(row_trls,trls)
     
     nav += nav_section.replace("category_name","Contribution")
     for item in contributions:
@@ -60,6 +67,14 @@ def main():
     nav += nav_section.replace("category_name","Arena")
     for item in arenas:
         nav += nav_item.replace("item_name",item).replace("item_url",item.lower())
+
+    # nav += nav_section.replace("category_name","Patent")
+    # for item in patents:
+    #     nav += nav_item.replace("item_name",item).replace("item_url",item.lower())
+
+    nav += nav_section.replace("category_name","TRL")
+    for item in trls:
+        nav += nav_item.replace("item_name",item).replace("item_url","trl{}".format(item).lower())
 
     with open ("_data/navigation.yml", "w") as f:
         f.write(nav)
