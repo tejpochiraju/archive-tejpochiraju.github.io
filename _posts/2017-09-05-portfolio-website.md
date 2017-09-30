@@ -18,9 +18,10 @@ So, I built a [new portfolio website](https://tejpochiraju.in). I learnt a lot o
 - Build a content management system that is easy to maintain and update as I work on new projects
 - Read projects from Excel/CSV since I maintain a list of projects in Google Sheets 
 - Multiple views and filters to see projects based on arena (academia, corporate, startup), status (abandoned, prototype, released) and contribution (mostly design and development but also some writing and supply chain identification)
+	- Inspired by ShaonaSen.com
 
 # Technology
 
-- Jekyll because it can be hosted on Github Pages and because it generates themed static HTML pages
+- Jekyll because it can be hosted on Github Pages and because it generates consistently themed static websites from easy to write
 - Bulma.io - because it is complete and speeds up development
 
