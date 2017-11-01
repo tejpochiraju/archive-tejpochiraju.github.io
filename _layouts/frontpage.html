@@ -14,7 +14,21 @@ layout: default
   </div>
   <div class="tile is-parent">
       <div class="content">
-        {{ content }}         
+        {{ content }}
       </div>
   </div>
+</div>
+
+<p class="title is-4">Clients and Collaborators</p>
+
+<div class="columns is-multiline level">
+{% for image in site.static_files %}
+    {% if image.path contains 'assets/images/clients' %}
+    <div class="column is-3">
+        <figure class="image is-128x128 level-item">
+            <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+        </figure>
+    </div>
+    {% endif %}
+{% endfor %}
 </div>
