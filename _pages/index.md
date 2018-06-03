@@ -1,6 +1,7 @@
 ---
 layout: frontpage
 permalink: /
+title: Tej Pochiraju - Consultant Product Developer in Bengaluru
 ---
 
 ## Thanks for stopping by
