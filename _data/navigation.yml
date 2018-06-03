@@ -1,71 +1,73 @@
 nav:
   - title: Contribution
     items:
+      - page: "Design"
+        url: /tag/design/
       - page: "Supply Chain"
         url: /tag/supply chain/
       - page: "Experiments"
         url: /tag/experiments/
       - page: "Development"
         url: /tag/development/
+      - page: "Architecture"
+        url: /tag/architecture/
       - page: "Writing"
         url: /tag/writing/
-      - page: "Design"
-        url: /tag/design/
   - title: Domain
     items:
-      - page: "Air"
-        url: /tag/air/
-      - page: "Waste"
-        url: /tag/waste/
       - page: "Energy"
         url: /tag/energy/
-      - page: "Education"
-        url: /tag/education/
-      - page: "Software"
-        url: /tag/software/
-      - page: "Electronics"
-        url: /tag/electronics/
-      - page: "Water"
-        url: /tag/water/
       - page: "Food"
         url: /tag/food/
+      - page: "Water"
+        url: /tag/water/
+      - page: "Software"
+        url: /tag/software/
+      - page: "Waste"
+        url: /tag/waste/
       - page: "Communication"
         url: /tag/communication/
+      - page: "Education"
+        url: /tag/education/
+      - page: "Air"
+        url: /tag/air/
+      - page: "Electronics"
+        url: /tag/electronics/
   - title: Status
     items:
-      - page: "Released"
-        url: /tag/released/
-      - page: "Proof of Concept"
-        url: /tag/proof of concept/
       - page: "Prototype"
         url: /tag/prototype/
+      - page: "Proof of Concept"
+        url: /tag/proof of concept/
+      - page: "Abandoned"
+        url: /tag/abandoned/
       - page: "Concept"
         url: /tag/concept/
       - page: "Ongoing"
         url: /tag/ongoing/
-      - page: "Abandoned"
-        url: /tag/abandoned/
+      - page: "Released"
+        url: /tag/released/
   - title: Arena
     items:
-      - page: "Academia"
-        url: /tag/academia/
-      - page: "Corporate"
-        url: /tag/corporate/
       - page: "Startup"
         url: /tag/startup/
+      - page: "Corporate"
+        url: /tag/corporate/
+      - page: "Academia"
+        url: /tag/academia/
   - title: TRL
     items:
-      - page: "7"
-        url: /tag/trl7/
-      - page: "8"
-        url: /tag/trl8/
-      - page: "9"
-        url: /tag/trl9/
-      - page: "5"
-        url: /tag/trl5/
       - page: "4"
         url: /tag/trl4/
-      - page: "6"
-        url: /tag/trl6/
       - page: "3"
         url: /tag/trl3/
+      - page: "7"
+        url: /tag/trl7/
+      - page: "5"
+        url: /tag/trl5/
+      - page: "6"
+        url: /tag/trl6/
+      - page: "9"
+        url: /tag/trl9/
+      - page: "8"
+        url: /tag/trl8/

@@ -1,289 +1,511 @@
-Title,Comprehensive_Description,Description,Client,Client_Brandmark,Patent,Image,Domains,URL,Start,End,Contribution,Status,TRL,Stage,Arena,Tags
+Title,Comprehensive_Description,Description,Need,Idea,Technology,Comments,Client,Client_Brandmark,Patent,Image,Domains,URL,Start,End,Contribution,Status,TRL,Stage,Arena,Tags
+"BLE, WiFi and CAN controlled interface for IoT devices","An ESP32 based controller for home and industrial applications that supports offline control via BLE and CANBus and online control over WiFi + MQTT.
+Contribution: Design, Development
+Technology Readiness Level: 8
+Client: Confidential
+Patent: No
+Status: Released
+Need: Traditional non-connected devices need a low-cost controller capable of interfacing across multiple protocols
+Idea: Combine an ESP32 with a CAN module to build a controller capable of wired and wireless control via apps and voice.
+Technology: ESP32, BLE, WiFi, CANBus, AWS IoT, FreeRTOS
+Comments: ",An ESP32 based controller for home and industrial applications that supports offline control via BLE and CANBus and online control over WiFi + MQTT.,Traditional non-connected devices need a low-cost controller capable of interfacing across multiple protocols,Combine an ESP32 with a CAN module to build a controller capable of wired and wireless control via apps and voice.,"ESP32, BLE, WiFi, CANBus, AWS IoT, FreeRTOS",,Confidential,,No,esp32.jpg,"Software, Electronics",,April 2018,,"Design, Development",Released,8,Market,Startup,"Software, Electronics,Design, Development,Released,TRL8,Market,Startup"
+Voice and App Based Control for Smart Home Devices,"Voice and text based control of smart home devices - over Alexa, Google Home, iWatch, Android and iOS apps
+Contribution: Design, Development
+Technology Readiness Level: 8
+Client: Confidential
+Patent: No
+Status: Released
+Need: Customers of this particular, high temperature product are wary of controlling the device using physical switches.
+Idea: Voice and wearable based control using local BLE and online internet-of-things integration.
+Technology: AWS IoT, Amazon Alexa, Google Home, iWatch, iOS, Android
+Comments: ","Voice and text based control of smart home devices - over Alexa, Google Home, iWatch, Android and iOS apps","Customers of this particular, high temperature product are wary of controlling the device using physical switches.",Voice and wearable based control using local BLE and online internet-of-things integration.,"AWS IoT, Amazon Alexa, Google Home, iWatch, iOS, Android",,Confidential,,No,alexa.jpg,Software,,April 2018,,"Design, Development",Released,8,Market,Startup,"Software,Design, Development,Released,TRL8,Market,Startup"
+Dara - ConnectBot for Artists,"A chatbot accessible over Facebook and via http://Dara.Network that connects artists from across India and UK.
+Contribution: Architecture, Development
+Technology Readiness Level: 8
+Client: British Council
+Patent: No
+Status: Released
+Need: Artists are often at a loose end when trying to find collaborators with very specific skills or from specific regions. There is a need for an accessible tool that can understand project descriptions and recommend potential collaborators.
+Idea: A chatbot that captures art projects and artist biographies thereby presenting recommendations when other artists come calling for collaborators.
+Technology: Microsoft Azure BotBuilder framework, Javascript, NodeJS, Facebook Messenger, Webchat
+Comments: Check it out at http://dara.network!",A chatbot accessible over Facebook and via http://Dara.Network that connects artists from across India and UK.,Artists are often at a loose end when trying to find collaborators with very specific skills or from specific regions. There is a need for an accessible tool that can understand project descriptions and recommend potential collaborators.,A chatbot that captures art projects and artist biographies thereby presenting recommendations when other artists come calling for collaborators.,"Microsoft Azure BotBuilder framework, Javascript, NodeJS, Facebook Messenger, Webchat",Check it out at http://dara.network!,British Council,bc.png,No,dara.png,Software,https://dara.network/,February 2018,May 2018,"Architecture, Development",Released,8,Market,Startup,"Software,Architecture, Development,Released,TRL8,Market,Startup"
 Sensor enabled composter,"A sensor enabled composter that increases end-user engagement and provides measurable impact metrics
 Contribution: Design, Development, Supply Chain
 Technology Readiness Level: 7
 Client: Daily Dump
 Patent: No
-Status: Ongoing",A sensor enabled composter that increases end-user engagement and provides measurable impact metrics,Daily Dump,dailydump.jpg,No,aaga.jpg,Waste,http://dailydump.org,September 2017,,"Design, Development, Supply Chain",Ongoing,7,Application,Startup,"Waste,Design, Development, Supply Chain,Ongoing,TRL7,Application,Startup"
+Status: Ongoing
+Need: Monitoring and evaluating impact by Daily Dump customers is important to showcase but difficult to achieve consistently. Waste management is an important component of smart city initiatives and data transparency will play a key role in successful implementations.
+Idea: Confidential
+Technology: Confidential
+Comments: Work in Progress",A sensor enabled composter that increases end-user engagement and provides measurable impact metrics,Monitoring and evaluating impact by Daily Dump customers is important to showcase but difficult to achieve consistently. Waste management is an important component of smart city initiatives and data transparency will play a key role in successful implementations.,Confidential,Confidential,Work in Progress,Daily Dump,dailydump.jpg,No,aaga.jpg,Waste,http://dailydump.org,September 2017,,"Design, Development, Supply Chain",Ongoing,7,Application,Startup,"Waste,Design, Development, Supply Chain,Ongoing,TRL7,Application,Startup"
 Portfolio Website,"A fast, responsive porfolio website with project filters. Built with Bulma.io and Jekyll
 Contribution: Design, Development, Writing
 Technology Readiness Level: 9
 Client: 
 Patent: No
-Status: Released","A fast, responsive porfolio website with project filters. Built with Bulma.io and Jekyll",,,No,portfolio_website.png,Software,http://tejpochiraju.github.io,August 2017,August 2017,"Design, Development, Writing",Released,9,Application,Startup,"Software,Design, Development, Writing,Released,TRL9,Application,Startup"
+Status: Released
+Need: As a consultant it is important to showcase the breadth and depth of work to potential clients as well as serving as a reminder of past successes and failures. Also important to have a consistent framework for documenting projects openly.
+Idea: A spreadsheet based documentation system for projects so that it's easy to maintain in the long run. A content management system that can read all project data directly from the spreadsheet. Filterable views so that the extensive portfolio can be looked at from various perspectives.
+Technology: Google Sheets for all the project documentation, Jekyll to generate HTML, Bulma for CSS, Github for code revision and hosting
+Comments: ","A fast, responsive porfolio website with project filters. Built with Bulma.io and Jekyll",As a consultant it is important to showcase the breadth and depth of work to potential clients as well as serving as a reminder of past successes and failures. Also important to have a consistent framework for documenting projects openly.,A spreadsheet based documentation system for projects so that it's easy to maintain in the long run. A content management system that can read all project data directly from the spreadsheet. Filterable views so that the extensive portfolio can be looked at from various perspectives.,"Google Sheets for all the project documentation, Jekyll to generate HTML, Bulma for CSS, Github for code revision and hosting",,,,No,portfolio_website.png,Software,http://tejpochiraju.github.io,August 2017,August 2017,"Design, Development, Writing",Released,9,Application,Startup,"Software,Design, Development, Writing,Released,TRL9,Application,Startup"
 Website for PASS Collective,"Jekyll website with full bleed video for PASS Collective - a skilling organisation using football and design to empower marginalised children.
 Contribution: Design, Development
 Technology Readiness Level: 9
 Client: PASS Collective
 Patent: No
-Status: Released",Jekyll website with full bleed video for PASS Collective - a skilling organisation using football and design to empower marginalised children.,PASS Collective,,No,pass_collective.png,Software,http://passcollective.org,June 2017,June 2017,"Design, Development",Released,9,Market,Startup,"Software,Design, Development,Released,TRL9,Market,Startup"
+Status: Released
+Need: Showcase the vision and mission of PASS Collective
+Idea: Easy to maintain website with full bleed video on landing page and scrolling definitions of ""PASS"" on About page.
+Technology: Jekyll, HTML5up.net theme, Github for code revisions and hosting
+Comments: ",Jekyll website with full bleed video for PASS Collective - a skilling organisation using football and design to empower marginalised children.,Showcase the vision and mission of PASS Collective,"Easy to maintain website with full bleed video on landing page and scrolling definitions of ""PASS"" on About page.","Jekyll, HTML5up.net theme, Github for code revisions and hosting",,PASS Collective,,No,pass_collective.png,Software,http://passcollective.org,June 2017,June 2017,"Design, Development",Released,9,Market,Startup,"Software,Design, Development,Released,TRL9,Market,Startup"
 OS + dashboard for IoT devices,"Lightweight, robust OS + device management dashboard for IoT products
 Contribution: Design, Development
 Technology Readiness Level: 7
 Client: 
 Patent: No
-Status: Released","Lightweight, robust OS + device management dashboard for IoT products",,,No,sustain_dashboard.png,Software,http://jaagasustain.in,April 2017,,"Design, Development",Released,7,Application,Startup,"Software,Design, Development,Released,TRL7,Application,Startup"
+Status: Released
+Need: 
+Idea: 
+Technology: 
+Comments: ","Lightweight, robust OS + device management dashboard for IoT products",,,,,,,No,sustain_dashboard.png,Software,http://jaagasustain.in,April 2017,,"Design, Development",Released,7,Application,Startup,"Software,Design, Development,Released,TRL7,Application,Startup"
 Smart controllers for electric lighting,"OS for over-the-air updates and complete control of smart lighting controllers
 Contribution: Design, Development
 Technology Readiness Level: 7
 Client: Afterglow Technologies India
 Patent: No
-Status: Ongoing",OS for over-the-air updates and complete control of smart lighting controllers,Afterglow Technologies India,afterglow.png,No,afterglow.jpg,Energy,http://afterglowtech.com,January 2017,,"Design, Development",Ongoing,7,Application,Startup,"Energy,Design, Development,Ongoing,TRL7,Application,Startup"
+Status: Ongoing
+Need: 
+Idea: 
+Technology: 
+Comments: ",OS for over-the-air updates and complete control of smart lighting controllers,,,,,Afterglow Technologies India,afterglow.png,No,afterglow.jpg,Energy,http://afterglowtech.com,January 2017,,"Design, Development",Ongoing,7,Application,Startup,"Energy,Design, Development,Ongoing,TRL7,Application,Startup"
 IoT enabled RFID reader,"Wireless, meshed RFID reader for integration into existing IoT deployments
 Contribution: Design, Development, Supply Chain
 Technology Readiness Level: 7
 Client: 
 Patent: No
-Status: Ongoing","Wireless, meshed RFID reader for integration into existing IoT deployments",,,No,sustain_rfid.jpg,"Software, Electronics",http://jaagasustain.in,January 2017,,"Design, Development, Supply Chain",Ongoing,7,Application,Startup,"Software, Electronics,Design, Development, Supply Chain,Ongoing,TRL7,Application,Startup"
+Status: Ongoing
+Need: 
+Idea: 
+Technology: 
+Comments: ","Wireless, meshed RFID reader for integration into existing IoT deployments",,,,,,,No,sustain_rfid.jpg,"Software, Electronics",http://jaagasustain.in,January 2017,,"Design, Development, Supply Chain",Ongoing,7,Application,Startup,"Software, Electronics,Design, Development, Supply Chain,Ongoing,TRL7,Application,Startup"
 Miniature antenna for moisture sensing,"Printed high gain Yagi array to enable detection of small signals in a miniature moisture sensing application
 Contribution: Design, Development
 Technology Readiness Level: 9
 Client: Tovalia, France
 Patent: No
-Status: Released",Printed high gain Yagi array to enable detection of small signals in a miniature moisture sensing application,"Tovalia, France",tovalia.png,No,yagi.jpg,"Water, Electronics",http://www.tovalia.fr/,October 2016,October 2016,"Design, Development",Released,9,Technology,Startup,"Water, Electronics,Design, Development,Released,TRL9,Technology,Startup"
+Status: Released
+Need: 
+Idea: 
+Technology: 
+Comments: ",Printed high gain Yagi array to enable detection of small signals in a miniature moisture sensing application,,,,,"Tovalia, France",tovalia.png,No,yagi.jpg,"Water, Electronics",http://www.tovalia.fr/,October 2016,October 2016,"Design, Development",Released,9,Technology,Startup,"Water, Electronics,Design, Development,Released,TRL9,Technology,Startup"
 Website for Jaaga Startup,"Simple Jekyll website with 95 score on Google PageSpeed for Jaaga Startup.
 Contribution: Design, Development
 Technology Readiness Level: 9
 Client: Jaaga Startup
 Patent: No
-Status: Released",Simple Jekyll website with 95 score on Google PageSpeed for Jaaga Startup.,Jaaga Startup,jaaga.png,No,jaaga_startup.png,Software,http://startup.jaaga.in/,June 2016,June 2016,"Design, Development",Released,9,Market,Startup,"Software,Design, Development,Released,TRL9,Market,Startup"
+Status: Released
+Need: 
+Idea: 
+Technology: 
+Comments: ",Simple Jekyll website with 95 score on Google PageSpeed for Jaaga Startup.,,,,,Jaaga Startup,jaaga.png,No,jaaga_startup.png,Software,http://startup.jaaga.in/,June 2016,June 2016,"Design, Development",Released,9,Market,Startup,"Software,Design, Development,Released,TRL9,Market,Startup"
 Remotely managed curated music for venues and retail businesses,"IoT enabled, remotely managed, professionally curated music for venues
 Contribution: Design, Development, Supply Chain
 Technology Readiness Level: 7
 Client: JookeBox
 Patent: No
-Status: Released","IoT enabled, remotely managed, professionally curated music for venues",JookeBox,jookebox.jpg,No,jookebox.jpg,Software,http://jookebox.com,May 2016,,"Design, Development, Supply Chain",Released,7,Application,Startup,"Software,Design, Development, Supply Chain,Released,TRL7,Application,Startup"
+Status: Released
+Need: 
+Idea: 
+Technology: 
+Comments: ","IoT enabled, remotely managed, professionally curated music for venues",,,,,JookeBox,jookebox.jpg,No,jookebox.jpg,Software,http://jookebox.com,May 2016,,"Design, Development, Supply Chain",Released,7,Application,Startup,"Software,Design, Development, Supply Chain,Released,TRL7,Application,Startup"
 Usage meter for bio digesters,"Simple wireless meter to measure consumption of bio-gas to enable pay-as-you-go model for bio-digesters
 Contribution: Design, Development
 Technology Readiness Level: 7
 Client: Sustain Earth, India
 Patent: No
-Status: Prototype",Simple wireless meter to measure consumption of bio-gas to enable pay-as-you-go model for bio-digesters,"Sustain Earth, India",gaugas.jpg,No,bio_digester.jpg,Energy,http://sustainearth.in,April 2016,July 2016,"Design, Development",Prototype,7,Application,Startup,"Energy,Design, Development,Prototype,TRL7,Application,Startup"
+Status: Prototype
+Need: 
+Idea: 
+Technology: 
+Comments: ",Simple wireless meter to measure consumption of bio-gas to enable pay-as-you-go model for bio-digesters,,,,,"Sustain Earth, India",gaugas.jpg,No,bio_digester.jpg,Energy,http://sustainearth.in,April 2016,July 2016,"Design, Development",Prototype,7,Application,Startup,"Energy,Design, Development,Prototype,TRL7,Application,Startup"
 Website for Sustain,"Two-column Jekyll website for Sustain
 Contribution: Design, Development
 Technology Readiness Level: 9
 Client: Sustain
 Patent: No
-Status: Released",Two-column Jekyll website for Sustain,Sustain,jaaga.png,No,jaaga_sustain.png,Software,http://jaagasustain.in/,January 2016,January 2016,"Design, Development",Released,9,Market,Startup,"Software,Design, Development,Released,TRL9,Market,Startup"
+Status: Released
+Need: 
+Idea: 
+Technology: 
+Comments: ",Two-column Jekyll website for Sustain,,,,,Sustain,jaaga.png,No,jaaga_sustain.png,Software,http://jaagasustain.in/,January 2016,January 2016,"Design, Development",Released,9,Market,Startup,"Software,Design, Development,Released,TRL9,Market,Startup"
 Smart pots for urban gardening,"Smart combination of growing medium, moisture absorbing cartridges and electronics to simplify urban gardening for non-gardeners
 Contribution: Design, Experiments
 Technology Readiness Level: 9
 Client: Greenopia
 Patent: No
-Status: Released","Smart combination of growing medium, moisture absorbing cartridges and electronics to simplify urban gardening for non-gardeners",Greenopia,greenopia.png,No,urban_gardening.jpg,"Water, Food, Air",http://greenopia.co,January 2016,,"Design, Experiments",Released,9,Application,Startup,"Water, Food, Air,Design, Experiments,Released,TRL9,Application,Startup"
+Status: Released
+Need: 
+Idea: 
+Technology: 
+Comments: ","Smart combination of growing medium, moisture absorbing cartridges and electronics to simplify urban gardening for non-gardeners",,,,,Greenopia,greenopia.png,No,urban_gardening.jpg,"Water, Food, Air",http://greenopia.co,January 2016,,"Design, Experiments",Released,9,Application,Startup,"Water, Food, Air,Design, Experiments,Released,TRL9,Application,Startup"
 Project Sphere - Socio-environmental design research,"Project Sphere focused on Bangalore-centric approaches to solve challenges around the resource areas of air, energy, food, waste and water.
 Contribution: Design, Writing
 Technology Readiness Level: 
 Client: Jaaga
 Patent: No
-Status: Released","Project Sphere focused on Bangalore-centric approaches to solve challenges around the resource areas of air, energy, food, waste and water.",Jaaga,jaaga.png,No,sphere.jpg,"Air, Energy, Food, Waste, Water",http://projectsphere.jaagastartup.in,July 2015,September 2015,"Design, Writing",Released,,Market,Startup,"Air, Energy, Food, Waste, Water,Design, Writing,Released,TRL,Market,Startup"
+Status: Released
+Need: 
+Idea: 
+Technology: 
+Comments: ","Project Sphere focused on Bangalore-centric approaches to solve challenges around the resource areas of air, energy, food, waste and water.",,,,,Jaaga,jaaga.png,No,sphere.jpg,"Air, Energy, Food, Waste, Water",http://projectsphere.jaagastartup.in,July 2015,September 2015,"Design, Writing",Released,,Market,Startup,"Air, Energy, Food, Waste, Water,Design, Writing,Released,TRL,Market,Startup"
 Mondelez Chocolate Process Review,"Part of select experts from around the globe invited to Bourneville, UK ideate on novel processes for chocolate manufacturing
 Contribution: Design
 Technology Readiness Level: 4
 Client: Mondelez
 Patent: No
-Status: Concept","Part of select experts from around the globe invited to Bourneville, UK ideate on novel processes for chocolate manufacturing",Mondelez,mondelez.png,No,chocolate.jpg,Food,http://www.mondelezinternational.com/,Feb 2015,Feb 2015,Design,Concept,4,Technology,Startup,"Food,Design,Concept,TRL4,Technology,Startup"
+Status: Concept
+Need: 
+Idea: 
+Technology: 
+Comments: ","Part of select experts from around the globe invited to Bourneville, UK ideate on novel processes for chocolate manufacturing",,,,,Mondelez,mondelez.png,No,chocolate.jpg,Food,http://www.mondelezinternational.com/,Feb 2015,Feb 2015,Design,Concept,4,Technology,Startup,"Food,Design,Concept,TRL4,Technology,Startup"
 Jaaga WiFi,"Low cost, reliable cloud managed WiFi network using Ubiquiti UniFi APs + TP-Link router
 Contribution: Design, Development, Supply Chain
 Technology Readiness Level: 9
 Client: Jaaga
 Patent: No
-Status: Released","Low cost, reliable cloud managed WiFi network using Ubiquiti UniFi APs + TP-Link router",Jaaga,jaaga.png,No,wifi.png,Communication,https://wifi.jaagastartup.in:8443,August 2014,September 2014,"Design, Development, Supply Chain",Released,9,Application,Startup,"Communication,Design, Development, Supply Chain,Released,TRL9,Application,Startup"
+Status: Released
+Need: 
+Idea: 
+Technology: 
+Comments: ","Low cost, reliable cloud managed WiFi network using Ubiquiti UniFi APs + TP-Link router",,,,,Jaaga,jaaga.png,No,wifi.png,Communication,https://wifi.jaagastartup.in:8443,August 2014,September 2014,"Design, Development, Supply Chain",Released,9,Application,Startup,"Communication,Design, Development, Supply Chain,Released,TRL9,Application,Startup"
 Microwave Detector,"Wireless mesh enabled microwave power detector to trigger alarms if the microwave leakage is beyond acceptable levels in industrial processing applications.
 Contribution: Design, Development, Experiments, Supply Chain
 Technology Readiness Level: 7
 Client: 
 Patent: No
-Status: Prototype",Wireless mesh enabled microwave power detector to trigger alarms if the microwave leakage is beyond acceptable levels in industrial processing applications.,,,No,microwave_detector.jpg,"Energy, Communication",,June 2014,June 2014,"Design, Development, Experiments, Supply Chain",Prototype,7,Application,Startup,"Energy, Communication,Design, Development, Experiments, Supply Chain,Prototype,TRL7,Application,Startup"
+Status: Prototype
+Need: 
+Idea: 
+Technology: 
+Comments: ",Wireless mesh enabled microwave power detector to trigger alarms if the microwave leakage is beyond acceptable levels in industrial processing applications.,,,,,,,No,microwave_detector.jpg,"Energy, Communication",,June 2014,June 2014,"Design, Development, Experiments, Supply Chain",Prototype,7,Application,Startup,"Energy, Communication,Design, Development, Experiments, Supply Chain,Prototype,TRL7,Application,Startup"
 Safety-enabled long range wireless communication,"Wireless mesh network with OpenSafety layer to ensure reliable communication
 Contribution: Design, Development
 Technology Readiness Level: 6
 Client: 
 Patent: No
-Status: Prototype",Wireless mesh network with OpenSafety layer to ensure reliable communication,,,No,open_safety.png,Communication,http://jaagasustain.in,April 2014,May 2014,"Design, Development",Prototype,6,Technology,Startup,"Communication,Design, Development,Prototype,TRL6,Technology,Startup"
+Status: Prototype
+Need: 
+Idea: 
+Technology: 
+Comments: ",Wireless mesh network with OpenSafety layer to ensure reliable communication,,,,,,,No,open_safety.png,Communication,http://jaagasustain.in,April 2014,May 2014,"Design, Development",Prototype,6,Technology,Startup,"Communication,Design, Development,Prototype,TRL6,Technology,Startup"
 Connect on Wheels,"WiFi enabled entertainment and communication on buses
 Contribution: Design, Development
 Technology Readiness Level: 7
 Client: 
 Patent: No
-Status: Abandoned",WiFi enabled entertainment and communication on buses,,,No,connect_on_wheels.jpg,Communication,,August 2013,January 2014,"Design, Development",Abandoned,7,Application,Startup,"Communication,Design, Development,Abandoned,TRL7,Application,Startup"
+Status: Abandoned
+Need: 
+Idea: 
+Technology: 
+Comments: ",WiFi enabled entertainment and communication on buses,,,,,,,No,connect_on_wheels.jpg,Communication,,August 2013,January 2014,"Design, Development",Abandoned,7,Application,Startup,"Communication,Design, Development,Abandoned,TRL7,Application,Startup"
 beyon Industrial IoT,"Industrial IoT controller and dashboard
 Contribution: Design, Development
 Technology Readiness Level: 6
 Client: 
 Patent: No
-Status: Abandoned",Industrial IoT controller and dashboard,,,No,beyon.png,Electronics,,August 2013,July 2014,"Design, Development",Abandoned,6,Application,Startup,"Electronics,Design, Development,Abandoned,TRL6,Application,Startup"
+Status: Abandoned
+Need: 
+Idea: 
+Technology: 
+Comments: ",Industrial IoT controller and dashboard,,,,,,,No,beyon.png,Electronics,,August 2013,July 2014,"Design, Development",Abandoned,6,Application,Startup,"Electronics,Design, Development,Abandoned,TRL6,Application,Startup"
 Highly sensitive biomonitor for IMO D2,"Fluorometry + neural networks to detect microbial contamination at extremely low concentrations (IMO D2).
 Contribution: Design, Experiments
 Technology Readiness Level: 3
 Client: Martek Marine
 Patent: No
-Status: Abandoned",Fluorometry + neural networks to detect microbial contamination at extremely low concentrations (IMO D2).,Martek Marine,martek_marine.png,No,biomonitor.png,Water,https://www.martek-marine.com/,July 2013,April 2014,"Design, Experiments",Abandoned,3,Technology,Startup,"Water,Design, Experiments,Abandoned,TRL3,Technology,Startup"
+Status: Abandoned
+Need: 
+Idea: 
+Technology: 
+Comments: ",Fluorometry + neural networks to detect microbial contamination at extremely low concentrations (IMO D2).,,,,,Martek Marine,martek_marine.png,No,biomonitor.png,Water,https://www.martek-marine.com/,July 2013,April 2014,"Design, Experiments",Abandoned,3,Technology,Startup,"Water,Design, Experiments,Abandoned,TRL3,Technology,Startup"
 Microwave moulding of shoe parts,"Novel material for shoe counters and prototype machine for rapid moulding of counters inside shoe - 80% more efficient than traditional process.
 Contribution: Design, Development, Experiments, Supply Chain
 Technology Readiness Level: 7
 Client: Texon
 Patent: Yes
-Status: Prototype",Novel material for shoe counters and prototype machine for rapid moulding of counters inside shoe - 80% more efficient than traditional process.,Texon,texon.jpg,Yes,backpart_moulding.jpg,"Energy, Waste",http://texon.co.uk,April 2013,August 2014,"Design, Development, Experiments, Supply Chain",Prototype,7,Application,Startup,"Energy, Waste,Design, Development, Experiments, Supply Chain,Prototype,TRL7,Application,Startup"
+Status: Prototype
+Need: 
+Idea: 
+Technology: 
+Comments: ",Novel material for shoe counters and prototype machine for rapid moulding of counters inside shoe - 80% more efficient than traditional process.,,,,,Texon,texon.jpg,Yes,backpart_moulding.jpg,"Energy, Waste",http://texon.co.uk,April 2013,August 2014,"Design, Development, Experiments, Supply Chain",Prototype,7,Application,Startup,"Energy, Waste,Design, Development, Experiments, Supply Chain,Prototype,TRL7,Application,Startup"
 Smart terminations and joints,"Research and partner identification for integrating current/voltage sensors into joints and terminations.
 Contribution: Design, Supply Chain
 Technology Readiness Level: 9
 Client: REPL International
 Patent: Yes
-Status: Released",Research and partner identification for integrating current/voltage sensors into joints and terminations.,REPL International,repl.jpg,Yes,smart_termination.jpg,Energy,http://repl.com,February 2013,July 2015,"Design, Supply Chain",Released,9,Application,Startup,"Energy,Design, Supply Chain,Released,TRL9,Application,Startup"
+Status: Released
+Need: 
+Idea: 
+Technology: 
+Comments: ",Research and partner identification for integrating current/voltage sensors into joints and terminations.,,,,,REPL International,repl.jpg,Yes,smart_termination.jpg,Energy,http://repl.com,February 2013,July 2015,"Design, Supply Chain",Released,9,Application,Startup,"Energy,Design, Supply Chain,Released,TRL9,Application,Startup"
 Miniature livestock RFID,"The world's smallest UHF RFID tag for livestock.
 Contribution: Design, Development, Experiments, Supply Chain
 Technology Readiness Level: 9
 Client: Datamars
 Patent: Yes
-Status: Released",The world's smallest UHF RFID tag for livestock.,Datamars,datamars.jpg,Yes,rosei.jpg,"Food, Electronics",http://datamars.com,February 2013,September 2014,"Design, Development, Experiments, Supply Chain",Released,9,Application,Startup,"Food, Electronics,Design, Development, Experiments, Supply Chain,Released,TRL9,Application,Startup"
+Status: Released
+Need: 
+Idea: 
+Technology: 
+Comments: ",The world's smallest UHF RFID tag for livestock.,,,,,Datamars,datamars.jpg,Yes,rosei.jpg,"Food, Electronics",http://datamars.com,February 2013,September 2014,"Design, Development, Experiments, Supply Chain",Released,9,Application,Startup,"Food, Electronics,Design, Development, Experiments, Supply Chain,Released,TRL9,Application,Startup"
 Microwave drier for recycled paper products,"Novel low cost microwave tunnel design using consumer magnetrons to rapidly dry recycled paper products
 Contribution: Design, Development, Experiments, Supply Chain
 Technology Readiness Level: 9
 Client: NiBek UK
 Patent: No
-Status: Released",Novel low cost microwave tunnel design using consumer magnetrons to rapidly dry recycled paper products,NiBek UK,nibek.jpg,No,microwave_drier.jpg,"Energy, Water",http://nibek.com,February 2013,June 2014,"Design, Development, Experiments, Supply Chain",Released,9,Application,Startup,"Energy, Water,Design, Development, Experiments, Supply Chain,Released,TRL9,Application,Startup"
+Status: Released
+Need: 
+Idea: 
+Technology: 
+Comments: ",Novel low cost microwave tunnel design using consumer magnetrons to rapidly dry recycled paper products,,,,,NiBek UK,nibek.jpg,No,microwave_drier.jpg,"Energy, Water",http://nibek.com,February 2013,June 2014,"Design, Development, Experiments, Supply Chain",Released,9,Application,Startup,"Energy, Water,Design, Development, Experiments, Supply Chain,Released,TRL9,Application,Startup"
 Holographic SAR for airport imaging applications,"Co-wrote the proposal for a novel scene imaging system to help avoid collisions in aircraft maintenance operations.
 Contribution: Writing
 Technology Readiness Level: 3
 Client: RampAware (EU FP7)
 Patent: No
-Status: Concept",Co-wrote the proposal for a novel scene imaging system to help avoid collisions in aircraft maintenance operations.,RampAware (EU FP7),eu_fp7.jpg,No,holographic_sar.png,Electronics,http://cordis.europa.eu/project/rcn/107426_en.html,December 2012,December 2012,Writing,Concept,3,Application,Corporate,"Electronics,Writing,Concept,TRL3,Application,Corporate"
+Status: Concept
+Need: 
+Idea: 
+Technology: 
+Comments: ",Co-wrote the proposal for a novel scene imaging system to help avoid collisions in aircraft maintenance operations.,,,,,RampAware (EU FP7),eu_fp7.jpg,No,holographic_sar.png,Electronics,http://cordis.europa.eu/project/rcn/107426_en.html,December 2012,December 2012,Writing,Concept,3,Application,Corporate,"Electronics,Writing,Concept,TRL3,Application,Corporate"
 Microwave drying of slurries,"Designed a system to efficiently and progressively dry slurry on conveyor belts without it clumping up.
 Contribution: Design, Development, Experiments
 Technology Readiness Level: 4
 Client: PPMIPS (EU FP7)
 Patent: No
-Status: Proof of Concept",Designed a system to efficiently and progressively dry slurry on conveyor belts without it clumping up.,PPMIPS (EU FP7),eu_fp7.jpg,No,ppmips.png,"Energy, Water",http://cordis.europa.eu/project/rcn/96461_en.html,October 2012,December 2012,"Design, Development, Experiments",Proof of Concept,4,Application,Corporate,"Energy, Water,Design, Development, Experiments,Proof of Concept,TRL4,Application,Corporate"
+Status: Proof of Concept
+Need: 
+Idea: 
+Technology: 
+Comments: ",Designed a system to efficiently and progressively dry slurry on conveyor belts without it clumping up.,,,,,PPMIPS (EU FP7),eu_fp7.jpg,No,ppmips.png,"Energy, Water",http://cordis.europa.eu/project/rcn/96461_en.html,October 2012,December 2012,"Design, Development, Experiments",Proof of Concept,4,Application,Corporate,"Energy, Water,Design, Development, Experiments,Proof of Concept,TRL4,Application,Corporate"
 Passive RFID powered pressure sensor,"Completely passive vacuum pressure sensor to detect and prevent failures in vacuum insulated panels.
 Contribution: Design, Development, Experiments, Supply Chain
 Technology Readiness Level: 7
 Client: Kingspan Insulation
 Patent: No
-Status: Released",Completely passive vacuum pressure sensor to detect and prevent failures in vacuum insulated panels.,Kingspan Insulation,kingspan.jpg,No,nanoinsulate.jpg,Electronics,http://cordis.europa.eu/project/rcn/96224_en.html,May 2012,Sep 2012,"Design, Development, Experiments, Supply Chain",Released,7,Application,Corporate,"Electronics,Design, Development, Experiments, Supply Chain,Released,TRL7,Application,Corporate"
+Status: Released
+Need: 
+Idea: 
+Technology: 
+Comments: ",Completely passive vacuum pressure sensor to detect and prevent failures in vacuum insulated panels.,,,,,Kingspan Insulation,kingspan.jpg,No,nanoinsulate.jpg,Electronics,http://cordis.europa.eu/project/rcn/96224_en.html,May 2012,Sep 2012,"Design, Development, Experiments, Supply Chain",Released,7,Application,Corporate,"Electronics,Design, Development, Experiments, Supply Chain,Released,TRL7,Application,Corporate"
 Microwave curing of wet spots in mineral wool,"Rapid, efficient curing of wet spots in mineral wool remnant from traditional curing.
 Contribution: Design, Development, Experiments
 Technology Readiness Level: 5
 Client: Rockwool International
 Patent: No
-Status: Prototype","Rapid, efficient curing of wet spots in mineral wool remnant from traditional curing.",Rockwool International,rockwool.png,No,rockwool.jpg,Energy,http://www.rockwoolgroup.com/,April 2012,December 2012,"Design, Development, Experiments",Prototype,5,Application,Corporate,"Energy,Design, Development, Experiments,Prototype,TRL5,Application,Corporate"
+Status: Prototype
+Need: 
+Idea: 
+Technology: 
+Comments: ","Rapid, efficient curing of wet spots in mineral wool remnant from traditional curing.",,,,,Rockwool International,rockwool.png,No,rockwool.jpg,Energy,http://www.rockwoolgroup.com/,April 2012,December 2012,"Design, Development, Experiments",Prototype,5,Application,Corporate,"Energy,Design, Development, Experiments,Prototype,TRL5,Application,Corporate"
 Resonant waveguides for pre-heating of polymers,"Offset resonant cavities to rapidly and efficiently pre-heat polymer sheets prior to compression moulding
 Contribution: Design, Experiments
 Technology Readiness Level: 6
 Client: Pera Technology
 Patent: No
-Status: Prototype",Offset resonant cavities to rapidly and efficiently pre-heat polymer sheets prior to compression moulding,Pera Technology,peratech.jpg,No,emda.jpg,Energy,,January 2012,October 2012,"Design, Experiments",Prototype,6,Application,Corporate,"Energy,Design, Experiments,Prototype,TRL6,Application,Corporate"
+Status: Prototype
+Need: 
+Idea: 
+Technology: 
+Comments: ",Offset resonant cavities to rapidly and efficiently pre-heat polymer sheets prior to compression moulding,,,,,Pera Technology,peratech.jpg,No,emda.jpg,Energy,,January 2012,October 2012,"Design, Experiments",Prototype,6,Application,Corporate,"Energy,Design, Experiments,Prototype,TRL6,Application,Corporate"
 "Efficient, sensor-controlled ballast water treatment","Highly efficient, bio-monitor controlled ballast water treatment.
 Contribution: Design, Development, Experiments, Supply Chain
 Technology Readiness Level: 6
 Client: UV-Mon (EU FP7)
 Patent: Yes
-Status: Prototype","Highly efficient, bio-monitor controlled ballast water treatment.",UV-Mon (EU FP7),eu_fp7.jpg,Yes,uvmon.png,"Energy, Water",http://cordis.europa.eu/project/rcn/101123_en.html,November 2011,January 2013,"Design, Development, Experiments, Supply Chain",Prototype,6,Application,Corporate,"Energy, Water,Design, Development, Experiments, Supply Chain,Prototype,TRL6,Application,Corporate"
+Status: Prototype
+Need: 
+Idea: 
+Technology: 
+Comments: ","Highly efficient, bio-monitor controlled ballast water treatment.",,,,,UV-Mon (EU FP7),eu_fp7.jpg,Yes,uvmon.png,"Energy, Water",http://cordis.europa.eu/project/rcn/101123_en.html,November 2011,January 2013,"Design, Development, Experiments, Supply Chain",Prototype,6,Application,Corporate,"Energy, Water,Design, Development, Experiments, Supply Chain,Prototype,TRL6,Application,Corporate"
 Powder impression moulding for recycled polymers,"Microwave pre-heating and novel insulated mould to achieve up to 2x more energy efficiency in powder impression moulding of recycled polymers.
 Contribution: Design, Development, Experiments
 Technology Readiness Level: 7
 Client: PRIME (EU FP7)
 Patent: No
-Status: Prototype",Microwave pre-heating and novel insulated mould to achieve up to 2x more energy efficiency in powder impression moulding of recycled polymers.,PRIME (EU FP7),eu_fp7.jpg,No,prime.jpg,"Energy, Waste",http://cordis.europa.eu/project/rcn/95089_en.html,June 2011,Mar 2012,"Design, Development, Experiments",Prototype,7,Application,Corporate,"Energy, Waste,Design, Development, Experiments,Prototype,TRL7,Application,Corporate"
+Status: Prototype
+Need: 
+Idea: 
+Technology: 
+Comments: ",Microwave pre-heating and novel insulated mould to achieve up to 2x more energy efficiency in powder impression moulding of recycled polymers.,,,,,PRIME (EU FP7),eu_fp7.jpg,No,prime.jpg,"Energy, Waste",http://cordis.europa.eu/project/rcn/95089_en.html,June 2011,Mar 2012,"Design, Development, Experiments",Prototype,7,Application,Corporate,"Energy, Waste,Design, Development, Experiments,Prototype,TRL7,Application,Corporate"
 Long range mesh network of oceanic wave sensors,"Long range (6km+) wireless sensors that detect wave strength and direction. Used to protect wave energy generator. Now off the cost of New York.
 Contribution: Design, Development, Experiments, Supply Chain
 Technology Readiness Level: 8
 Client: Waveport (EU FP7)
 Patent: No
-Status: Released",Long range (6km+) wireless sensors that detect wave strength and direction. Used to protect wave energy generator. Now off the cost of New York.,Waveport (EU FP7),eu_fp7.jpg,No,waveport.jpg,Electronics,http://cordis.europa.eu/project/rcn/94487_en.html,June 2011,Feb 2012,"Design, Development, Experiments, Supply Chain",Released,8,Application,Corporate,"Electronics,Design, Development, Experiments, Supply Chain,Released,TRL8,Application,Corporate"
+Status: Released
+Need: 
+Idea: 
+Technology: 
+Comments: ",Long range (6km+) wireless sensors that detect wave strength and direction. Used to protect wave energy generator. Now off the cost of New York.,,,,,Waveport (EU FP7),eu_fp7.jpg,No,waveport.jpg,Electronics,http://cordis.europa.eu/project/rcn/94487_en.html,June 2011,Feb 2012,"Design, Development, Experiments, Supply Chain",Released,8,Application,Corporate,"Electronics,Design, Development, Experiments, Supply Chain,Released,TRL8,Application,Corporate"
 Microwave assisted modification of wood structure,"Modified structure of wood to allow higher uptake of wood treatment liquids.
 Contribution: Design, Development, Experiments
 Technology Readiness Level: 5
 Client: Grange Fencing, UK
 Patent: No
-Status: Abandoned",Modified structure of wood to allow higher uptake of wood treatment liquids.,"Grange Fencing, UK",grange.jpg,No,grange.jpg,Energy,http://www.grangefen.co.uk/,June 2011,Aug 2011,"Design, Development, Experiments",Abandoned,5,Application,Corporate,"Energy,Design, Development, Experiments,Abandoned,TRL5,Application,Corporate"
+Status: Abandoned
+Need: 
+Idea: 
+Technology: 
+Comments: ",Modified structure of wood to allow higher uptake of wood treatment liquids.,,,,,"Grange Fencing, UK",grange.jpg,No,grange.jpg,Energy,http://www.grangefen.co.uk/,June 2011,Aug 2011,"Design, Development, Experiments",Abandoned,5,Application,Corporate,"Energy,Design, Development, Experiments,Abandoned,TRL5,Application,Corporate"
 Microwave assisted attachment of biocides to polymer filters,"Polymer filters for ballast water treatment with biocides attached to the surface using microwave chemistry.
 Contribution: Design, Development, Experiments
 Technology Readiness Level: 5
 Client: Atlantis (EU FP7)
 Patent: No
-Status: Proof of Concept",Polymer filters for ballast water treatment with biocides attached to the surface using microwave chemistry.,Atlantis (EU FP7),eu_fp7.jpg,No,atlantis.png,Water,http://cordis.europa.eu/project/rcn/97075_en.html,May 2011,Dec 2011,"Design, Development, Experiments",Proof of Concept,5,Application,Corporate,"Water,Design, Development, Experiments,Proof of Concept,TRL5,Application,Corporate"
+Status: Proof of Concept
+Need: 
+Idea: 
+Technology: 
+Comments: ",Polymer filters for ballast water treatment with biocides attached to the surface using microwave chemistry.,,,,,Atlantis (EU FP7),eu_fp7.jpg,No,atlantis.png,Water,http://cordis.europa.eu/project/rcn/97075_en.html,May 2011,Dec 2011,"Design, Development, Experiments",Proof of Concept,5,Application,Corporate,"Water,Design, Development, Experiments,Proof of Concept,TRL5,Application,Corporate"
 Accelerated drying of wood with microwaves,"Sensor enabled microwave chamber for safely drying fresh cut timber in 10% of usual drying time.
 Contribution: Design, Development, Experiments
 Technology Readiness Level: 7
 Client: Torchwood (EU FP7)
 Patent: No
-Status: Prototype",Sensor enabled microwave chamber for safely drying fresh cut timber in 10% of usual drying time.,Torchwood (EU FP7),eu_fp7.jpg,No,torchwood.jpg,"Energy, Water",http://cordis.europa.eu/result/rcn/58237_en.html,October 2010,March 2011,"Design, Development, Experiments",Prototype,7,Application,Corporate,"Energy, Water,Design, Development, Experiments,Prototype,TRL7,Application,Corporate"
+Status: Prototype
+Need: 
+Idea: 
+Technology: 
+Comments: ",Sensor enabled microwave chamber for safely drying fresh cut timber in 10% of usual drying time.,,,,,Torchwood (EU FP7),eu_fp7.jpg,No,torchwood.jpg,"Energy, Water",http://cordis.europa.eu/result/rcn/58237_en.html,October 2010,March 2011,"Design, Development, Experiments",Prototype,7,Application,Corporate,"Energy, Water,Design, Development, Experiments,Prototype,TRL7,Application,Corporate"
 Microwave assisted flood remediation,"Safe and rapid drying of flood affected properties using combination of microwave and traditional techniques.
 Contribution: Design, Development, Experiments, Supply Chain
 Technology Readiness Level: 8
 Client: Microdry (EU FP7)
 Patent: No
-Status: Released",Safe and rapid drying of flood affected properties using combination of microwave and traditional techniques.,Microdry (EU FP7),eu_fp7.jpg,No,microdry.jpg,"Energy, Water",http://cordis.europa.eu/project/rcn/107639_en.html,October 2010,February 2012,"Design, Development, Experiments, Supply Chain",Released,8,Application,Corporate,"Energy, Water,Design, Development, Experiments, Supply Chain,Released,TRL8,Application,Corporate"
+Status: Released
+Need: 
+Idea: 
+Technology: 
+Comments: ",Safe and rapid drying of flood affected properties using combination of microwave and traditional techniques.,,,,,Microdry (EU FP7),eu_fp7.jpg,No,microdry.jpg,"Energy, Water",http://cordis.europa.eu/project/rcn/107639_en.html,October 2010,February 2012,"Design, Development, Experiments, Supply Chain",Released,8,Application,Corporate,"Energy, Water,Design, Development, Experiments, Supply Chain,Released,TRL8,Application,Corporate"
 Polymer based FSS and radar absorber,"Lightweight frequency selective surface made from polyaniline that acts as a radar absorber - designed for wind turbine and drone blades.
 Contribution: Design, Development, Experiments, Writing
 Technology Readiness Level: 5
 Client: Osgram (EU FP7)
 Patent: No
-Status: Prototype",Lightweight frequency selective surface made from polyaniline that acts as a radar absorber - designed for wind turbine and drone blades.,Osgram (EU FP7),eu_fp7.jpg,No,osgram.png,Energy,http://cordis.europa.eu/project/rcn/92308_en.html,October 2010,August 2011,"Design, Development, Experiments, Writing",Prototype,5,Technology,Corporate,"Energy,Design, Development, Experiments, Writing,Prototype,TRL5,Technology,Corporate"
+Status: Prototype
+Need: 
+Idea: 
+Technology: 
+Comments: ",Lightweight frequency selective surface made from polyaniline that acts as a radar absorber - designed for wind turbine and drone blades.,,,,,Osgram (EU FP7),eu_fp7.jpg,No,osgram.png,Energy,http://cordis.europa.eu/project/rcn/92308_en.html,October 2010,August 2011,"Design, Development, Experiments, Writing",Prototype,5,Technology,Corporate,"Energy,Design, Development, Experiments, Writing,Prototype,TRL5,Technology,Corporate"
 Low power phase conjugating receiver,"A combination of Van Atta array and PLLs to reduce power consumption while achieving consistent phase conjugation.
 Contribution: Design, Development, Writing
 Technology Readiness Level: 3
 Client: ECIT, Queen's University of Belfast
 Patent: No
-Status: Concept",A combination of Van Atta array and PLLs to reduce power consumption while achieving consistent phase conjugation.,"ECIT, Queen's University of Belfast",ecit.gif,No,van_atta_pll.png,Communication,http://www.ecit.qub.ac.uk/,June 2010,June 2010,"Design, Development, Writing",Concept,3,Technology,Academia,"Communication,Design, Development, Writing,Concept,TRL3,Technology,Academia"
+Status: Concept
+Need: 
+Idea: 
+Technology: 
+Comments: ",A combination of Van Atta array and PLLs to reduce power consumption while achieving consistent phase conjugation.,,,,,"ECIT, Queen's University of Belfast",ecit.gif,No,van_atta_pll.png,Communication,http://www.ecit.qub.ac.uk/,June 2010,June 2010,"Design, Development, Writing",Concept,3,Technology,Academia,"Communication,Design, Development, Writing,Concept,TRL3,Technology,Academia"
 Near field imaging,"Non-resonant slot structures to focus energy in near field for imaging applications
 Contribution: Design, Development, Experiments, Writing
 Technology Readiness Level: 4
 Client: ECIT, Queen's University of Belfast
 Patent: No
-Status: Prototype",Non-resonant slot structures to focus energy in near field for imaging applications,"ECIT, Queen's University of Belfast",ecit.gif,No,near_field_imaging.jpg,Electronics,http://www.ecit.qub.ac.uk/,December 2009,July 2010,"Design, Development, Experiments, Writing",Prototype,4,Technology,Academia,"Electronics,Design, Development, Experiments, Writing,Prototype,TRL4,Technology,Academia"
+Status: Prototype
+Need: 
+Idea: 
+Technology: 
+Comments: ",Non-resonant slot structures to focus energy in near field for imaging applications,,,,,"ECIT, Queen's University of Belfast",ecit.gif,No,near_field_imaging.jpg,Electronics,http://www.ecit.qub.ac.uk/,December 2009,July 2010,"Design, Development, Experiments, Writing",Prototype,4,Technology,Academia,"Electronics,Design, Development, Experiments, Writing,Prototype,TRL4,Technology,Academia"
 GUI programmer for PIC10F200 and ADF4106 PLL,"A QT based GUI for selecting the configuration, generating the assembly code, compiling and linking to HEX and flashing to the chip. Written to allow non-coder colleagues to configure and play with the dev board themselves.
 Contribution: Design, Development
 Technology Readiness Level: 7
 Client: ECIT, Queen's University of Belfast
 Patent: No
-Status: Released","A QT based GUI for selecting the configuration, generating the assembly code, compiling and linking to HEX and flashing to the chip. Written to allow non-coder colleagues to configure and play with the dev board themselves.","ECIT, Queen's University of Belfast",ecit.gif,No,easypic.jpg,Software,https://code.google.com/archive/p/easypic/,December 2009,December 2009,"Design, Development",Released,7,Application,Academia,"Software,Design, Development,Released,TRL7,Application,Academia"
+Status: Released
+Need: 
+Idea: 
+Technology: 
+Comments: ","A QT based GUI for selecting the configuration, generating the assembly code, compiling and linking to HEX and flashing to the chip. Written to allow non-coder colleagues to configure and play with the dev board themselves.",,,,,"ECIT, Queen's University of Belfast",ecit.gif,No,easypic.jpg,Software,https://code.google.com/archive/p/easypic/,December 2009,December 2009,"Design, Development",Released,7,Application,Academia,"Software,Design, Development,Released,TRL7,Application,Academia"
 Reflection amplifier,"MMIC reflection amplifier for microwave fence applications
 Contribution: Writing, Experiments
 Technology Readiness Level: 7
 Client: ECIT, Queen's University of Belfast
 Patent: No
-Status: Released",MMIC reflection amplifier for microwave fence applications,"ECIT, Queen's University of Belfast",ecit.gif,No,reflection_amplifier.png,Electronics,http://www.ecit.qub.ac.uk/,October 2009,April 2010,"Writing, Experiments",Released,7,Technology,Academia,"Electronics,Writing, Experiments,Released,TRL7,Technology,Academia"
+Status: Released
+Need: 
+Idea: 
+Technology: 
+Comments: ",MMIC reflection amplifier for microwave fence applications,,,,,"ECIT, Queen's University of Belfast",ecit.gif,No,reflection_amplifier.png,Electronics,http://www.ecit.qub.ac.uk/,October 2009,April 2010,"Writing, Experiments",Released,7,Technology,Academia,"Electronics,Writing, Experiments,Released,TRL7,Technology,Academia"
 Touchscreen GUI for food ordering,"Nifty Nosh were a new startup changing the way people ordered food. We customised and documented the wireless GNU//Linux OS that powered their touch screen devices at restaurants.
 Contribution: Development
 Technology Readiness Level: 7
 Client: Nifty Nosh
 Patent: No
-Status: Released",Nifty Nosh were a new startup changing the way people ordered food. We customised and documented the wireless GNU//Linux OS that powered their touch screen devices at restaurants.,Nifty Nosh,nifty_nosh.gif,No,nifty_nosh.gif,Software,https://www.just-eat.co.uk/,Feb 2008,Jul 2008,Development,Released,7,Application,Startup,"Software,Development,Released,TRL7,Application,Startup"
+Status: Released
+Need: 
+Idea: 
+Technology: 
+Comments: ",Nifty Nosh were a new startup changing the way people ordered food. We customised and documented the wireless GNU//Linux OS that powered their touch screen devices at restaurants.,,,,,Nifty Nosh,nifty_nosh.gif,No,nifty_nosh.gif,Software,https://www.just-eat.co.uk/,Feb 2008,Jul 2008,Development,Released,7,Application,Startup,"Software,Development,Released,TRL7,Application,Startup"
 Touchscreen GUI for sphygmomanometer,"Marturion built a digital sphygmomanometer and approached us to design and code the UI for a touch screen interface. This was before the launch of consumer tablets.
 Contribution: Development
 Technology Readiness Level: 7
 Client: Marturion
 Patent: No
-Status: Released",Marturion built a digital sphygmomanometer and approached us to design and code the UI for a touch screen interface. This was before the launch of consumer tablets.,Marturion,maturion.png,No,gui_sphygmomanometer.png,Software,http://marturion.com,October 2007,April 2008,Development,Released,7,Application,Startup,"Software,Development,Released,TRL7,Application,Startup"
+Status: Released
+Need: 
+Idea: 
+Technology: 
+Comments: ",Marturion built a digital sphygmomanometer and approached us to design and code the UI for a touch screen interface. This was before the launch of consumer tablets.,,,,,Marturion,maturion.png,No,gui_sphygmomanometer.png,Software,http://marturion.com,October 2007,April 2008,Development,Released,7,Application,Startup,"Software,Development,Released,TRL7,Application,Startup"
 Reconfigurable impedance tuner,"Low loss SMD impedace tuner for covering complete Smith Chart. Multiple applications like tunable antennas and amplifiers, low loss/low profile circulator, backscatter modulated RFID tag, amplitude and phase controlled reflectarray and vector modulator
 Contribution: Design, Development, Experiments, Writing
 Technology Readiness Level: 5
 Client: ECIT, Queen's University of Belfast
 Patent: No
-Status: Prototype","Low loss SMD impedace tuner for covering complete Smith Chart. Multiple applications like tunable antennas and amplifiers, low loss/low profile circulator, backscatter modulated RFID tag, amplitude and phase controlled reflectarray and vector modulator","ECIT, Queen's University of Belfast",ecit.gif,No,tuner_backed_patch.png,Electronics,http://www.ecit.qub.ac.uk/,September 2006,Sept 2009,"Design, Development, Experiments, Writing",Prototype,5,Technology,Academia,"Electronics,Design, Development, Experiments, Writing,Prototype,TRL5,Technology,Academia"
+Status: Prototype
+Need: 
+Idea: 
+Technology: 
+Comments: ","Low loss SMD impedace tuner for covering complete Smith Chart. Multiple applications like tunable antennas and amplifiers, low loss/low profile circulator, backscatter modulated RFID tag, amplitude and phase controlled reflectarray and vector modulator",,,,,"ECIT, Queen's University of Belfast",ecit.gif,No,tuner_backed_patch.png,Electronics,http://www.ecit.qub.ac.uk/,September 2006,Sept 2009,"Design, Development, Experiments, Writing",Prototype,5,Technology,Academia,"Electronics,Design, Development, Experiments, Writing,Prototype,TRL5,Technology,Academia"
 Miniature Broadside Coupler,"Low loss broadside coupler with SMD pads
 Contribution: Design, Development, Experiments, Writing
 Technology Readiness Level: 7
 Client: ECIT, Queen's University of Belfast
 Patent: No
-Status: Released",Low loss broadside coupler with SMD pads,"ECIT, Queen's University of Belfast",ecit.gif,No,broadside_coupler.png,Electronics,http://www.ecit.qub.ac.uk/,September 2006,May 2007,"Design, Development, Experiments, Writing",Released,7,Technology,Academia,"Electronics,Design, Development, Experiments, Writing,Released,TRL7,Technology,Academia"
+Status: Released
+Need: 
+Idea: 
+Technology: 
+Comments: ",Low loss broadside coupler with SMD pads,,,,,"ECIT, Queen's University of Belfast",ecit.gif,No,broadside_coupler.png,Electronics,http://www.ecit.qub.ac.uk/,September 2006,May 2007,"Design, Development, Experiments, Writing",Released,7,Technology,Academia,"Electronics,Design, Development, Experiments, Writing,Released,TRL7,Technology,Academia"
 Road surface imaging using polarimetry and holography,"A combination of polarimetry and holography to improve imaging resolution and achieve infinite depth of field.
 Contribution: Design, Development
 Technology Readiness Level: 4
 Client: ECIT, Queen's University of Belfast
 Patent: No
-Status: Abandoned",A combination of polarimetry and holography to improve imaging resolution and achieve infinite depth of field.,"ECIT, Queen's University of Belfast",ecit.gif,No,road_surface_imaging.jpg,Electronics,http://www.ecit.qub.ac.uk/,September 2006,September 2007,"Design, Development",Abandoned,4,Technology,Academia,"Electronics,Design, Development,Abandoned,TRL4,Technology,Academia"
+Status: Abandoned
+Need: 
+Idea: 
+Technology: 
+Comments: ",A combination of polarimetry and holography to improve imaging resolution and achieve infinite depth of field.,,,,,"ECIT, Queen's University of Belfast",ecit.gif,No,road_surface_imaging.jpg,Electronics,http://www.ecit.qub.ac.uk/,September 2006,September 2007,"Design, Development",Abandoned,4,Technology,Academia,"Electronics,Design, Development,Abandoned,TRL4,Technology,Academia"
 Pingu Linux,"Multi-distro GNU/Linux installer with local network repositories
 Contribution: Writing, Experiments
 Technology Readiness Level: 7
 Client: IIT Kharagpur
 Patent: No
-Status: Released",Multi-distro GNU/Linux installer with local network repositories,IIT Kharagpur,iit_kharagpur.png,No,pingu.png,Education,,July 2005,December 2005,"Writing, Experiments",Released,7,Market,Academia,"Education,Writing, Experiments,Released,TRL7,Market,Academia"
+Status: Released
+Need: 
+Idea: 
+Technology: 
+Comments: ",Multi-distro GNU/Linux installer with local network repositories,,,,,IIT Kharagpur,iit_kharagpur.png,No,pingu.png,Education,,July 2005,December 2005,"Writing, Experiments",Released,7,Market,Academia,"Education,Writing, Experiments,Released,TRL7,Market,Academia"
 Telecom surge protector,"20kV varistor based surge protector with RJ11 connector for household telephones
 Contribution: Design, Development
 Technology Readiness Level: 5
 Client: 
 Patent: No
-Status: Prototype",20kV varistor based surge protector with RJ11 connector for household telephones,,,No,surge_protector.jpg,Communication,,Aug 2003,April 2004,"Design, Development",Prototype,5,Application,Academia,"Communication,Design, Development,Prototype,TRL5,Application,Academia"
+Status: Prototype
+Need: 
+Idea: 
+Technology: 
+Comments: ",20kV varistor based surge protector with RJ11 connector for household telephones,,,,,,,No,surge_protector.jpg,Communication,,Aug 2003,April 2004,"Design, Development",Prototype,5,Application,Academia,"Communication,Design, Development,Prototype,TRL5,Application,Academia"
