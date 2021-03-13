@@ -3,6 +3,10 @@ layout: default
 permalink: /portfolio/
 ---
 
+<a href="/filter/">Filter Projects</a>
+<br/>
+<br/>
+
 <div class="columns">
   {% assign display_tags = "" %}
   {% assign arena = "Startup" %}
