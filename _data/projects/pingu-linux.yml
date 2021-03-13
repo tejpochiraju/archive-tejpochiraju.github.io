@@ -1,0 +1,18 @@
+---
+layout: project
+title: Pingu Linux
+description: Multi-distro GNU/Linux installer with local network repositories
+client: IIT Kharagpur
+client_brandmark: iit_kharagpur.png
+patent: No
+image: pingu.png
+domains: Education
+start: July 2005
+end: December 2005
+contribution: Writing, Experiments
+status: Released
+trl: 7
+stage: Market
+arena: Academia
+tags: Education,Writing, Experiments,Released,TRL7,Market,Academia
+---

@@ -1,0 +1,19 @@
+---
+layout: project
+title: Highly sensitive biomonitor for IMO D2
+description: Fluorometry + neural networks to detect microbial contamination at extremely low concentrations (IMO D2).
+client: Martek Marine
+client_brandmark: martek_marine.png
+patent: No
+image: biomonitor.png
+domains: Water
+url: https://www.martek-marine.com/
+start: July 2013
+end: April 2014
+contribution: Design, Experiments
+status: Abandoned
+trl: 3
+stage: Technology
+arena: Startup
+tags: Water,Design, Experiments,Abandoned,TRL3,Technology,Startup
+---

@@ -1,30 +1,30 @@
 <div class="card">
       <div class="card-image">
         <figure class="image">
-          <img src="/assets/images/projects/{{ project.Image }}" alt="Image" style="align-self: center;">
+          <img src="/assets/images/projects/{{ project.image }}" alt="{{ project.title }}" style="align-self: center;">
         </figure>
       </div>
       <div class="card-content">
         <div class="media">
           <div class="media-content">
-            <a href="{{ project.URL }}" target="_blank"><p class="title is-4">{{ project.Title }}</p></a>
-            {% if project.Client %}
-            <p> Client: <a href="{{ project.URL }}" target="_blank">{{project.Client}}</a></p>
+            <a href="{{ project.url }}" target="_blank"><p class="title is-4">{{ project.title }}</p></a>
+            {% if project.client %}
+            <p> Client: <a href="{{ project.url }}" target="_blank">{{project.client}}</a></p>
             {% endif %}
             <p> Domain: {% for domain in domains %} <a href="/tag/{{ domain | downcase | strip }}">{{ domain }},</a> {% endfor %}</p>
             <p> Contribution: {% for contribution in contributions %} <a href="/tag/{{ contribution | downcase | strip }}">{{ contribution }},</a> {% endfor %}</p>
-            <p> Arena: <a href="/tag/{{ project.Arena | downcase | strip }}">{{ project.Arena }}</a></p>
-            <p> <a href="/tag/trl{{ project.TRL | downcase | strip }}">Technology Readiness Level: {{project.TRL}}</a></p>
-            <p> Status: <a href="/tag/{{ project.Status | downcase | strip }}">{{project.Status}}</a></p>
-            <p> Patent: {{project.Patent}}</p>
-            <p> {{project.Start}} - {{project.End}}</p>
+            <p> Arena: <a href="/tag/{{ project.arena | downcase | strip }}">{{ project.arena }}</a></p>
+            <p> <a href="/tag/trl{{ project.trl | downcase | strip }}">Technology Readiness Level: {{project.trl}}</a></p>
+            <p> Status: <a href="/tag/{{ project.status | downcase | strip }}">{{project.status}}</a></p>
+            <p> Patent: {{project.patent}}</p>
+            <p> {{project.start}} - {{project.end}}</p>
           </div>
         </div>
 
         <div class="content">
-          {{ project.Description }}
+          {{ project.description }}
           <br>
-          <small>{{ project.Period }}</small>
+          <small>{{ project.period }}</small>
         </div>
       </div>
     </div>

@@ -1,0 +1,19 @@
+---
+layout: project
+title: Touchscreen GUI for sphygmomanometer
+description: Marturion built a digital sphygmomanometer and approached us to design and code the UI for a touch screen interface. This was before the launch of consumer tablets.
+client: Marturion
+client_brandmark: maturion.png
+patent: No
+image: gui_sphygmomanometer.png
+domains: Software
+url: http://marturion.com
+start: October 2007
+end: April 2008
+contribution: Development
+status: Released
+trl: 7
+stage: Application
+arena: Startup
+tags: Software,Development,Released,TRL7,Application,Startup
+---

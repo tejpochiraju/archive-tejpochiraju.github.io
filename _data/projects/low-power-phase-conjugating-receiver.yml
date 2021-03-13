@@ -1,0 +1,19 @@
+---
+layout: project
+title: Low power phase conjugating receiver
+description: A combination of Van Atta array and PLLs to reduce power consumption while achieving consistent phase conjugation.
+client: ECIT, Queen's University of Belfast
+client_brandmark: ecit.gif
+patent: No
+image: van_atta_pll.png
+domains: Communication
+url: http://www.ecit.qub.ac.uk/
+start: June 2010
+end: June 2010
+contribution: Design, Development, Writing
+status: Concept
+trl: 3
+stage: Technology
+arena: Academia
+tags: Communication,Design, Development, Writing,Concept,TRL3,Technology,Academia
+---

@@ -1,0 +1,19 @@
+---
+layout: project
+title: Miniature Broadside Coupler
+description: Low loss broadside coupler with SMD pads
+client: ECIT, Queen's University of Belfast
+client_brandmark: ecit.gif
+patent: No
+image: broadside_coupler.png
+domains: Electronics
+url: http://www.ecit.qub.ac.uk/
+start: September 2006
+end: May 2007
+contribution: Design, Development, Experiments, Writing
+status: Released
+trl: 7
+stage: Technology
+arena: Academia
+tags: Electronics,Design, Development, Experiments, Writing,Released,TRL7,Technology,Academia
+---

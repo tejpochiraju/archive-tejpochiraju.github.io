@@ -1,0 +1,19 @@
+---
+layout: project
+title: Reflection amplifier
+description: MMIC reflection amplifier for microwave fence applications
+client: ECIT, Queen's University of Belfast
+client_brandmark: ecit.gif
+patent: No
+image: reflection_amplifier.png
+domains: Electronics
+url: http://www.ecit.qub.ac.uk/
+start: October 2009
+end: April 2010
+contribution: Writing, Experiments
+status: Released
+trl: 7
+stage: Technology
+arena: Academia
+tags: Electronics,Writing, Experiments,Released,TRL7,Technology,Academia
+---

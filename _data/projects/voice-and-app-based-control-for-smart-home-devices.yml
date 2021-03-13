@@ -1,0 +1,19 @@
+---
+layout: project
+title: Voice and App Based Control for Smart Home Devices
+description: Voice and text based control of smart home devices - over Alexa, Google Home, iWatch, Android and iOS apps
+need: Customers of this particular, high temperature product are wary of controlling the device using physical switches.
+idea: Voice and wearable based control using local BLE and online internet-of-things integration.
+technology: AWS IoT, Amazon Alexa, Google Home, iWatch, iOS, Android
+client: Confidential
+patent: No
+image: alexa.jpg
+domains: Software
+start: April 2018
+contribution: Design, Development
+status: Released
+trl: 8
+stage: Market
+arena: Startup
+tags: Software,Design, Development,Released,TRL8,Market,Startup
+---

@@ -1,0 +1,16 @@
+---
+layout: project
+title: Microwave Detector
+description: Wireless mesh enabled microwave power detector to trigger alarms if the microwave leakage is beyond acceptable levels in industrial processing applications.
+patent: No
+image: microwave_detector.jpg
+domains: Energy, Communication
+start: June 2014
+end: June 2014
+contribution: Design, Development, Experiments, Supply Chain
+status: Prototype
+trl: 7
+stage: Application
+arena: Startup
+tags: Energy, Communication,Design, Development, Experiments, Supply Chain,Prototype,TRL7,Application,Startup
+---

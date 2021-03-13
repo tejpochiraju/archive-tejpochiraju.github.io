@@ -1,0 +1,19 @@
+---
+layout: project
+title: Reconfigurable impedance tuner
+description: Low loss SMD impedace tuner for covering complete Smith Chart. Multiple applications like tunable antennas and amplifiers, low loss/low profile circulator, backscatter modulated RFID tag, amplitude and phase controlled reflectarray and vector modulator
+client: ECIT, Queen's University of Belfast
+client_brandmark: ecit.gif
+patent: No
+image: tuner_backed_patch.png
+domains: Electronics
+url: http://www.ecit.qub.ac.uk/
+start: September 2006
+end: Sept 2009
+contribution: Design, Development, Experiments, Writing
+status: Prototype
+trl: 5
+stage: Technology
+arena: Academia
+tags: Electronics,Design, Development, Experiments, Writing,Prototype,TRL5,Technology,Academia
+---

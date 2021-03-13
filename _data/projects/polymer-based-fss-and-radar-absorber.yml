@@ -1,0 +1,19 @@
+---
+layout: project
+title: Polymer based FSS and radar absorber
+description: Lightweight frequency selective surface made from polyaniline that acts as a radar absorber - designed for wind turbine and drone blades.
+client: Osgram (EU FP7)
+client_brandmark: eu_fp7.jpg
+patent: No
+image: osgram.png
+domains: Energy
+url: http://cordis.europa.eu/project/rcn/92308_en.html
+start: October 2010
+end: August 2011
+contribution: Design, Development, Experiments, Writing
+status: Prototype
+trl: 5
+stage: Technology
+arena: Corporate
+tags: Energy,Design, Development, Experiments, Writing,Prototype,TRL5,Technology,Corporate
+---

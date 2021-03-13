@@ -1,0 +1,21 @@
+---
+layout: project
+title: Website for PASS Collective
+description: Jekyll website with full bleed video for PASS Collective - a skilling organisation using football and design to empower marginalised children.
+need: Showcase the vision and mission of PASS Collective
+idea: Easy to maintain website with full bleed video on landing page and scrolling definitions of "PASS" on About page.
+technology: Jekyll, HTML5up.net theme, Github for code revisions and hosting
+client: PASS Collective
+patent: No
+image: pass_collective.png
+domains: Software
+url: http://passcollective.org
+start: June 2017
+end: June 2017
+contribution: Design, Development
+status: Released
+trl: 9
+stage: Market
+arena: Startup
+tags: Software,Design, Development,Released,TRL9,Market,Startup
+---

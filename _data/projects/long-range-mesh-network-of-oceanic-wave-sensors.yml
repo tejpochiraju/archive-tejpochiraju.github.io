@@ -1,0 +1,19 @@
+---
+layout: project
+title: Long range mesh network of oceanic wave sensors
+description: Long range (6km+) wireless sensors that detect wave strength and direction. Used to protect wave energy generator. Now off the cost of New York.
+client: Waveport (EU FP7)
+client_brandmark: eu_fp7.jpg
+patent: No
+image: waveport.jpg
+domains: Electronics
+url: http://cordis.europa.eu/project/rcn/94487_en.html
+start: June 2011
+end: Feb 2012
+contribution: Design, Development, Experiments, Supply Chain
+status: Released
+trl: 8
+stage: Application
+arena: Corporate
+tags: Electronics,Design, Development, Experiments, Supply Chain,Released,TRL8,Application,Corporate
+---

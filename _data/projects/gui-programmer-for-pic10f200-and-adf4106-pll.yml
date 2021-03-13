@@ -1,0 +1,19 @@
+---
+layout: project
+title: GUI programmer for PIC10F200 and ADF4106 PLL
+description: A QT based GUI for selecting the configuration, generating the assembly code, compiling and linking to HEX and flashing to the chip. Written to allow non-coder colleagues to configure and play with the dev board themselves.
+client: ECIT, Queen's University of Belfast
+client_brandmark: ecit.gif
+patent: No
+image: easypic.jpg
+domains: Software
+url: https://code.google.com/archive/p/easypic/
+start: December 2009
+end: December 2009
+contribution: Design, Development
+status: Released
+trl: 7
+stage: Application
+arena: Academia
+tags: Software,Design, Development,Released,TRL7,Application,Academia
+---

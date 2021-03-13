@@ -1,0 +1,19 @@
+---
+layout: project
+title: Passive RFID powered pressure sensor
+description: Completely passive vacuum pressure sensor to detect and prevent failures in vacuum insulated panels.
+client: Kingspan Insulation
+client_brandmark: kingspan.jpg
+patent: No
+image: nanoinsulate.jpg
+domains: Electronics
+url: http://cordis.europa.eu/project/rcn/96224_en.html
+start: May 2012
+end: Sep 2012
+contribution: Design, Development, Experiments, Supply Chain
+status: Released
+trl: 7
+stage: Application
+arena: Corporate
+tags: Electronics,Design, Development, Experiments, Supply Chain,Released,TRL7,Application,Corporate
+---

@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<div class="content">
+	
+	<h2>Projects</h2>
+
+	{% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+	
+	{% for project_hash in site.data.projects %}
+	{% assign project = project_hash[1] %}
+        <h4><a href="{{ project.url | relative_url }}">{{ project.title | escape }}</a> &nbsp;<span class="is-size-7">{{ project.start | date: date_format }}</span></h4>
+        
+	{% endfor %}
+
+</div>

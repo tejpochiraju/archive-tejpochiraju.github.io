@@ -5,7 +5,7 @@ layout: default
     <div class="column"></div>
     <div class="column">
     {% for project in site.data.projects %}
-        {% if project.Title == page.title %}
+        {% if project.title == page.title %}
             {% include card.html %}
         {% endif %}
     {% endfor %}

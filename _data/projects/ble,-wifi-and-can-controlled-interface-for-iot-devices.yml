@@ -1,0 +1,19 @@
+---
+layout: project
+title: BLE, WiFi and CAN controlled interface for IoT devices
+description: An ESP32 based controller for home and industrial applications that supports offline control via BLE and CANBus and online control over WiFi + MQTT.
+need: Traditional non-connected devices need a low-cost controller capable of interfacing across multiple protocols
+idea: Combine an ESP32 with a CAN module to build a controller capable of wired and wireless control via apps and voice.
+technology: ESP32, BLE, WiFi, CANBus, AWS IoT, FreeRTOS
+client: Confidential
+patent: No
+image: esp32.jpg
+domains: Software, Electronics
+start: April 2018
+contribution: Design, Development
+status: Released
+trl: 8
+stage: Market
+arena: Startup
+tags: Software, Electronics,Design, Development,Released,TRL8,Market,Startup
+---

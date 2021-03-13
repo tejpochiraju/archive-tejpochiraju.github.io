@@ -1,0 +1,16 @@
+---
+layout: project
+title: Telecom surge protector
+description: 20kV varistor based surge protector with RJ11 connector for household telephones
+patent: No
+image: surge_protector.jpg
+domains: Communication
+start: Aug 2003
+end: April 2004
+contribution: Design, Development
+status: Prototype
+trl: 5
+stage: Application
+arena: Academia
+tags: Communication,Design, Development,Prototype,TRL5,Application,Academia
+---

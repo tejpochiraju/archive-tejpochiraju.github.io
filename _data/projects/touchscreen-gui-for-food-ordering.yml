@@ -1,0 +1,19 @@
+---
+layout: project
+title: Touchscreen GUI for food ordering
+description: Nifty Nosh were a new startup changing the way people ordered food. We customised and documented the wireless GNU//Linux OS that powered their touch screen devices at restaurants.
+client: Nifty Nosh
+client_brandmark: nifty_nosh.gif
+patent: No
+image: nifty_nosh.gif
+domains: Software
+url: https://www.just-eat.co.uk/
+start: Feb 2008
+end: Jul 2008
+contribution: Development
+status: Released
+trl: 7
+stage: Application
+arena: Startup
+tags: Software,Development,Released,TRL7,Application,Startup
+---

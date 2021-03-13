@@ -1,0 +1,19 @@
+---
+layout: project
+title: Website for Jaaga Startup
+description: Simple Jekyll website with 95 score on Google PageSpeed for Jaaga Startup.
+client: Jaaga Startup
+client_brandmark: jaaga.png
+patent: No
+image: jaaga_startup.png
+domains: Software
+url: http://startup.jaaga.in/
+start: June 2016
+end: June 2016
+contribution: Design, Development
+status: Released
+trl: 9
+stage: Market
+arena: Startup
+tags: Software,Design, Development,Released,TRL9,Market,Startup
+---

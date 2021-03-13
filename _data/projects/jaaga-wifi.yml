@@ -1,0 +1,19 @@
+---
+layout: project
+title: Jaaga WiFi
+description: Low cost, reliable cloud managed WiFi network using Ubiquiti UniFi APs + TP-Link router
+client: Jaaga
+client_brandmark: jaaga.png
+patent: No
+image: wifi.png
+domains: Communication
+url: https://wifi.jaagastartup.in:8443
+start: August 2014
+end: September 2014
+contribution: Design, Development, Supply Chain
+status: Released
+trl: 9
+stage: Application
+arena: Startup
+tags: Communication,Design, Development, Supply Chain,Released,TRL9,Application,Startup
+---

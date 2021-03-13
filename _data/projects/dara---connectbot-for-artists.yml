@@ -1,0 +1,23 @@
+---
+layout: project
+title: Dara - ConnectBot for Artists
+description: A chatbot accessible over Facebook and via http://Dara.Network that connects artists from across India and UK.
+need: Artists are often at a loose end when trying to find collaborators with very specific skills or from specific regions. There is a need for an accessible tool that can understand project descriptions and recommend potential collaborators.
+idea: A chatbot that captures art projects and artist biographies thereby presenting recommendations when other artists come calling for collaborators.
+technology: Microsoft Azure BotBuilder framework, Javascript, NodeJS, Facebook Messenger, Webchat
+comments: Check it out at http://dara.network!
+client: British Council
+client_brandmark: bc.png
+patent: No
+image: dara.png
+domains: Software
+url: https://dara.network/
+start: February 2018
+end: May 2018
+contribution: Architecture, Development
+status: Released
+trl: 8
+stage: Market
+arena: Startup
+tags: Software,Architecture, Development,Released,TRL8,Market,Startup
+---

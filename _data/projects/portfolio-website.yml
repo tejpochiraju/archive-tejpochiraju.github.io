@@ -1,0 +1,20 @@
+---
+layout: project
+title: Portfolio Website
+description: A fast, responsive porfolio website with project filters. Built with Bulma.io and Jekyll
+need: As a consultant it is important to showcase the breadth and depth of work to potential clients as well as serving as a reminder of past successes and failures. Also important to have a consistent framework for documenting projects openly.
+idea: A spreadsheet based documentation system for projects so that it's easy to maintain in the long run. A content management system that can read all project data directly from the spreadsheet. Filterable views so that the extensive portfolio can be looked at from various perspectives.
+technology: Google Sheets for all the project documentation, Jekyll to generate HTML, Bulma for CSS, Github for code revision and hosting
+patent: No
+image: portfolio_website.png
+domains: Software
+url: http://tejpochiraju.github.io
+start: August 2017
+end: August 2017
+contribution: Design, Development, Writing
+status: Released
+trl: 9
+stage: Application
+arena: Startup
+tags: Software,Design, Development, Writing,Released,TRL9,Application,Startup
+---

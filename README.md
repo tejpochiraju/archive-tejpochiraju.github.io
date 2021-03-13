@@ -6,7 +6,7 @@
 
 # Features
 
-- Portfolio loaded from a CSV file
+- Portfolio loaded from yml files
 - Tag-based filters for the porfolio
 - Fully responsive
 - Font Awesome icons
