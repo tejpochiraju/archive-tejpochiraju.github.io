@@ -19,11 +19,12 @@ photo: /assets/images/profile.jpg
 
 github: tejpochiraju
 linkedin: tejpochiraju
-email: tej@jaaga.in
+twitter: tejpochiraju
+email: hi@tejpochiraju.in
 
 include: ["_pages"]
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://tejpochiraju.in" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 permalink: /blog/:title.html
