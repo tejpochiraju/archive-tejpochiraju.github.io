@@ -10,7 +10,7 @@
 - Tag-based filters for the porfolio
 - Fully responsive
 - Font Awesome icons
-- Google Analytics integration
+- Plausible Analytics integration
 - No custom CSS
 - Python script to generate tag pages and navigation
 - Builds in <5s
